@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on HFK</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Работа с файлами в Python</title>
+      <link>http://localhost:1313/posts/work-with-files/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/work-with-files/</guid>
+      <description>Управление файлами с помощью языка программирования PythonПрограммы, которые мы писали до сих пор, требовали повторного ввода данных при каждом запуске, потому что, как только программа заканчивает свою работу, данные для переменных исчезают из оперативной памяти.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

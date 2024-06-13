@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on HFK</title>
+    <link>http://localhost:1313/tags/docs/</link>
+    <description>Recent content in Docs on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/posts/configuration/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/configuration/</guid>
+      <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

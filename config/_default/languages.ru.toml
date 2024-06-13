@@ -1,0 +1,24 @@
+languageCode = "ru"
+languageName = "Russian"
+weight = 1
+title = "HFK"
+
+[params]
+  displayName = "RU"
+  isoCode = "ru"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/logo_idea_transparent.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Мой чудесный сайт"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+  name = "Иван Бережной"
+  image = "img/me.png"
+  headline = "Не( )любитель \"острых\" цитат"
+  bio = "Студент первого курса РУДН. Учится на направлении \"Компьютерные и информационные науки\". Увлекается программированием, в особенности языком Python, криптографией, балисонгом и многим другим. Любит гулять, не любит алкоголь."
+  links = [
+    { email = "darkgxd@vk.com" },
+    { github = "https://github.com/NoisyCake" },
+  ]

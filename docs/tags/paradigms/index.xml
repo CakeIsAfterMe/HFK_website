@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paradigms on HFK</title>
+    <link>https://CakeIsAsterMe.github.io/HFK_website/tags/paradigms/</link>
+    <description>Recent content in Paradigms on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CakeIsAsterMe.github.io/HFK_website/tags/paradigms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Парадигмы программирования</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/programming_paradigms/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/programming_paradigms/</guid>
+      <description>Всё о парадигмах программирования: особенности, механизмы, какие языки поддерживают и т.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

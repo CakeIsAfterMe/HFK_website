@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorythms on HFK</title>
+    <link>https://CakeIsAsterMe.github.io/HFK_website/tags/algorythms/</link>
+    <description>Recent content in Algorythms on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CakeIsAsterMe.github.io/HFK_website/tags/algorythms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big O</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/big_o/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/big_o/</guid>
+      <description>Всё про нотацию Big O на примерах базовых колллекций в PythonBig O - нотация, использующаяся в программировании, информатике для описания сложности алгоритмов.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/big_o/featurewaves.svg" />
+    </item>
+    
+  </channel>
+</rss>

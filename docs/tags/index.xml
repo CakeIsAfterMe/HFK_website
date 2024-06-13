@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on HFK</title>
+    <link>https://CakeIsAsterMe.github.io/HFK_website/tags/</link>
+    <description>Recent content in Tags on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CakeIsAsterMe.github.io/HFK_website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/coding/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/coding/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Paradigms</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/paradigms/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/paradigms/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Algorythms</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/algorythms/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/algorythms/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Big O</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/big-o/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/big-o/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/python/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Files</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/files/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/files/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/functions/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/functions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/modules/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/modules/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Turtle</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/turtle/</link>
+      <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/turtle/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Datatypes</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/datatypes/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/datatypes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Random</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/random/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/random/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>String</title>
+      <link>https://CakeIsAsterMe.github.io/HFK_website/tags/string/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://CakeIsAsterMe.github.io/HFK_website/tags/string/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

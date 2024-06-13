@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://CakeIsAsterMe.github.io/HFK_website/sitemap.xml

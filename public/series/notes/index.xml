@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on HFK</title>
+    <link>http://localhost:1313/series/notes/</link>
+    <description>Recent content in Notes on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>База Python</title>
+      <link>http://localhost:1313/posts/configuration/</link>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/configuration/</guid>
+      <description>Информация по языку Python #Просто вещи, которые я бы хотел запомнить #Синглтон - это паттерн проектирования, гарантирующий, что у класса будет только один экземпляр.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
