@@ -6,6 +6,7 @@ theme = "blowfish"
 baseURL = "https://CakeIsAsterMe.github.io/HFK_website"
 defaultContentLanguage = "ru"
 publishDir = "docs"
+favicon = "favicon.ico"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
