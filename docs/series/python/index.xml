@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on HFK</title>
-    <link>https://CakeIsAsterMe.github.io/HFK_website/series/python/</link>
+    <link>http://localhost:1313/HFK_website/series/python/</link>
     <description>Recent content in Python on HFK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://CakeIsAsterMe.github.io/HFK_website/series/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/series/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Работа с файлами в Python</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/work_with_files/</link>
+      <link>http://localhost:1313/HFK_website/posts/work_with_files/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/work_with_files/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/work_with_files/</guid>
       <description>Управление файлами с помощью языка программирования PythonПрограммы, которые мы писали до сих пор, требовали повторного ввода данных при каждом запуске, потому что, как только программа заканчивает свою работу, данные для переменных исчезают из оперативной памяти.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/work_with_files/featurerain.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/work_with_files/featurerain.svg" />
     </item>
     
     <item>
       <title>Функции в Python</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/functions2/</link>
+      <link>http://localhost:1313/HFK_website/posts/functions2/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/functions2/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/functions2/</guid>
       <description>Вторая часть функций в Python (первую может выложу, может и нет).</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/functions2/featurelavalamp.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/functions2/featurelavalamp.svg" />
     </item>
     
     <item>
       <title>Черепашья графика</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/turtle/</link>
+      <link>http://localhost:1313/HFK_website/posts/turtle/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/turtle/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/turtle/</guid>
       <description>Графическая библиотека, встроенная в язык Python.</description>
       
     </item>
     
     <item>
       <title>Decimal, Fraction и комлексные числа в Python</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/frac_dec_compl/</link>
+      <link>http://localhost:1313/HFK_website/posts/frac_dec_compl/</link>
       <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/frac_dec_compl/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/frac_dec_compl/</guid>
       <description>Точные числа с плавающей точкой, дроби и комплексные числа.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/frac_dec_compl/featurefireflies.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/frac_dec_compl/featurefireflies.svg" />
     </item>
     
     <item>
       <title>Модули string и random</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/random_string/</link>
+      <link>http://localhost:1313/HFK_website/posts/random_string/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/random_string/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/random_string/</guid>
       <description>Модуль random #Для использования: import random</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/random_string/featureripples.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/random_string/featureripples.svg" />
     </item>
     
     <item>
       <title>Коллекции в Python</title>
-      <link>https://CakeIsAsterMe.github.io/HFK_website/posts/collections/</link>
+      <link>http://localhost:1313/HFK_website/posts/collections/</link>
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://CakeIsAsterMe.github.io/HFK_website/posts/collections/</guid>
+      <guid>http://localhost:1313/HFK_website/posts/collections/</guid>
       <description>Списки, кортежи, множества, словари и всё, что с ними связано.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://CakeIsAsterMe.github.io/HFK_website/posts/collections/featurebackground.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg" />
     </item>
     
   </channel>
