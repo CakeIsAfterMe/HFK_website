@@ -10,7 +10,7 @@ title = "HFK"
   dateFormat = "2 January 2006"
   logo = "img/first_logo_transparent.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Мой чудесный сайт"
+  description = "Чудесный сайт"
   # copyright = "© 2024 HFK"
 
 [author]

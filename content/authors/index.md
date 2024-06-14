@@ -6,6 +6,8 @@ description: "Sample for a multiple author setup"
 showAuthor: true
 
 cascade:
+  showDate: false
   showZenMode: false
+  showPagination: false
 ---
 

@@ -71,7 +71,7 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Добро пожаловать на мой сайт! :tada:",
+    "articleSection": ":tada:",
     "name": "Авторы",
     "headline": "Авторы",
     "description": "Sample for a multiple author setup",
@@ -154,7 +154,7 @@
   
   <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -183,13 +183,50 @@
 
             
             
-            
-  <a href="/HFK_website/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
     
-    <p class="text-base font-medium" title="">
-        Конспекты
-    </p>
-</a>
+    <a  href="/HFK_website/posts/"   class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      Конспекты
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/HFK_website/series/python/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            Python
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -199,6 +236,17 @@
     
     <p class="text-base font-medium" title="">
         Авторы
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/HFK_website/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        О HFK
     </p>
 </a>
 
@@ -314,15 +362,47 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="/HFK_website/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             Конспекты
         </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
     </a>
 </li>
+
+<li class="mt-1">
+    <a href="/HFK_website/series/python/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            Python
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
 
 
 
@@ -335,6 +415,21 @@
         
         <p class="text-bg font-bg" title="">
             Авторы
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/HFK_website/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            О HFK
         </p>
     </a>
 </li>
@@ -397,7 +492,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/HFK_website/"
-      >Добро пожаловать на мой сайт! :tada:</a
+      >:tada:</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -433,8 +528,6 @@
 
 
 
-  
-
 
 
 
@@ -455,8 +548,6 @@
 
 <div class="flex flex-row flex-wrap items-center">
   
-  
-  <time datetime="2024-06-12 00:00:00 &#43;0000 UTC">12 июня 2024</time>
   
 
   
@@ -626,8 +717,6 @@
   <footer class="pt-8 max-w-prose print:hidden">
 
     
-  
-
 
     
   </footer>

@@ -16,8 +16,19 @@
   weight = 10
 
 [[main]]
+  name = "Python"
+  parent = "Конспекты"
+  pageRef = "series/python"
+  weight = 20
+
+[[main]]
   name = "Авторы"
   pageref = "authors"
+  weight = 11
+
+[[main]]
+  name = "О HFK"
+  pageref = "about"
   weight = 12
 
 #[[main]]

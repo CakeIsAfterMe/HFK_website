@@ -15,7 +15,7 @@
   <meta name="keywords" content="python, coding, functions, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/functions2/" />
+  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/functions/" />
   
   
   
@@ -52,7 +52,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/functions2/">
+  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/functions/">
   <meta property="og:site_name" content="HFK">
   <meta property="og:title" content="Функции в Python">
   <meta property="og:description" content="Вторая часть функций в Python (первую может выложу, может и нет).">
@@ -64,7 +64,7 @@
     <meta property="article:tag" content="Python">
     <meta property="article:tag" content="Coding">
     <meta property="article:tag" content="Functions">
-    <meta property="og:image" content="http://localhost:1313/HFK_website/posts/functions2/featurelavalamp.svg">
+    <meta property="og:image" content="http://localhost:1313/HFK_website/posts/functions/featurelavalamp.svg">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/work_with_files/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/turtle/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
@@ -73,7 +73,7 @@
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/functions2/featurelavalamp.svg">
+  <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/functions/featurelavalamp.svg">
   <meta name="twitter:title" content="Функции в Python">
   <meta name="twitter:description" content="Вторая часть функций в Python (первую может выложу, может и нет).">
 
@@ -88,7 +88,7 @@
     
     "abstract": "Вторая часть функций в Python (первую может выложу, может и нет).",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/functions2\/",
+    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/functions\/",
     "author" : {
       "@type": "Person",
       "name": "Иван Бережной"
@@ -102,7 +102,7 @@
     "keywords": ["python","coding","functions"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3362"
+    "wordCount": "3361"
   }]
   </script>
 
@@ -522,7 +522,7 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/HFK_website/posts/functions2/"
+      href="/HFK_website/posts/functions/"
       >Функции в Python</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -579,7 +579,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-05-16 00:00:00 &#43;0000 UTC">16 мая 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3362 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">16 минут</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-05-16 00:00:00 &#43;0000 UTC">16 мая 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3361 слово</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">16 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
@@ -707,8 +707,8 @@
     </li>
     <li><a href="#функции-с-переменным-количеством-аргументов"><strong>Функции с переменным количеством аргументов</strong></a>
       <ul>
-        <li><a href="#позиционные-аргументы---args">Позиционные аргументы - *args</a></li>
-        <li><a href="#именованные-аргументы---kwargs">Именованные аргументы - **kwargs</a></li>
+        <li><a href="#позиционные-аргументы--args">Позиционные аргументы – *args</a></li>
+        <li><a href="#именованные-аргументы--kwargs">Именованные аргументы – **kwargs</a></li>
       </ul>
     </li>
     <li><a href="#keyword-only-аргументы"><strong>Keyword-only аргументы</strong></a></li>
@@ -774,8 +774,8 @@
     </li>
     <li><a href="#функции-с-переменным-количеством-аргументов"><strong>Функции с переменным количеством аргументов</strong></a>
       <ul>
-        <li><a href="#позиционные-аргументы---args">Позиционные аргументы - *args</a></li>
-        <li><a href="#именованные-аргументы---kwargs">Именованные аргументы - **kwargs</a></li>
+        <li><a href="#позиционные-аргументы--args">Позиционные аргументы – *args</a></li>
+        <li><a href="#именованные-аргументы--kwargs">Именованные аргументы – **kwargs</a></li>
       </ul>
     </li>
     <li><a href="#keyword-only-аргументы"><strong>Keyword-only аргументы</strong></a></li>
@@ -964,12 +964,12 @@
     </span>        
     
 </h3>
-<p>Когда мы вызываем функции c позиционными аргументами, значения в них подставляются согласно позиции их имен в определении функции. Например код ниже выведет число 7. При вызове функции <code>diff()</code> первому параметру x будет соответствовать первый переданный аргумент — 10, а второму параметру y — второй аргумент — 3.</p>
+<p>Когда мы вызываем функции c позиционными аргументами, значения в них подставляются согласно позиции их имен в определении функции. Например код ниже выведет число 7. При вызове функции <code>diff()</code> первому параметру x будет соответствовать первый переданный аргумент – 10, а второму параметру y – второй аргумент – 3.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">diff</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">res</span> <span class="o">=</span> <span class="n">diff</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>    <span class="c1"># используем позиционные аргументы</span>
+</span></span><span class="line"><span class="cl"><span class="n">res</span> <span class="o">=</span> <span class="n">diff</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1"># используем позиционные аргументы</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
 </span></span></code></pre></div><hr>
 
@@ -995,12 +995,72 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">bar</span><span class="p">(</span><span class="n">char2</span><span class="o">=</span><span class="s1">&#39;*&#39;</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">char1</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># =&gt; -*-*-*-</span>
 </span></span></code></pre></div><p>При вызове функции меняется порядок передаваемых аргументов. Когда функции назначаются соответствующие значения именованных аргументов, Python учитывает их имена, а не позиции. В результате функция будет всегда выводить одно и то же значение независимо от позиций переданных ей аргументов.</p>
-<p><strong>Рекомендация</strong> по тому, когда стоит использовать именованные аргументы: если функция принимает больше трёх аргументов, нужно хотя бы часть из них указать по имени.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Рекомендация</strong> по тому, когда стоит использовать именованные аргументы: если функция принимает больше трёх аргументов, нужно хотя бы часть из них указать по имени.</span>
+</div>
+
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">make_circle</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">line_width</span><span class="p">,</span> <span class="n">fill</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="c1"># тело функции</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mf">2.5</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span></span></code></pre></div><p><u>Мы можем вызывать функции, используя именованные и позиционные аргументы одновременно. Но позиционные значения должны быть указаны до любых именованных!</u></p>
+</span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Мы можем вызывать функции, используя именованные и позиционные аргументы одновременно. Но позиционные значения должны быть указаны до любых именованных!</span>
+</div>
+
 <hr>
 
 
@@ -1015,7 +1075,7 @@
     
 </h3>
 <p>Бывает, что какой-то параметр функции часто принимает одно и то же значение. Например, для функции <code>print()</code> установили значения параметров <code>sep</code> и <code>end</code> равными символу пробела и символу перевода строки, поскольку эти значения используют наиболее часто.<br>
-Другим примером служит функция <code>int()</code>, преобразующая строку в число. Она принимает два аргумента: первый аргумент — строка, которую нужно преобразовать в число, второй аргумент — основание системы счисления, значение по умолчению которого — 10.</p>
+Другим примером служит функция <code>int()</code>, преобразующая строку в число. Она принимает два аргумента: первый аргумент – строка, которую нужно преобразовать в число, второй аргумент – основание системы счисления, значение по умолчению которого равно 10.</p>
 <p>Чтобы задать значение параметра по умолчанию, в списке параметров функции достаточно после имени переменной написать <b>знак равенства и нужное значение</b>.<br>
 <u>Параметры со значением по умолчанию идут последними.</u></p>
 
@@ -1038,13 +1098,12 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">10</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
-</span></span></code></pre></div><p>Значение по умолчанию для параметра создается <strong>единожды</strong> при определении функции (обычно при загрузке модуля) и становится атрибутом (свойством) функции. Поэтому, если значение по умолчанию изменяемый объект, то его изменение повлияет на каждый следующий вызов функции.<br>
-Для решения проблемы можно использовать константу None в качестве значения параметра по умолчанию, а в теле функции устанавливать нужное значение:</p>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+[10]
+[10, 5]
+[10, 5, 1]
+</code></pre><p>Значение по умолчанию для параметра создается <strong>единожды</strong> при определении функции (обычно при загрузке модуля) и становится её атрибутом (свойством). Поэтому, если значение по умолчанию изменяемый объект, то его изменение повлияет на каждый следующий вызов функции.<br>
+Для решения проблемы можно использовать константу <code>None</code> в качестве значения параметра по умолчанию, а в теле функции устанавливать нужное значение:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">append</span><span class="p">(</span><span class="n">element</span><span class="p">,</span> <span class="n">seq</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">seq</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="n">seq</span> <span class="o">=</span> <span class="p">[]</span>
@@ -1054,12 +1113,11 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">10</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">5</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+[10]
+[5]
+[1]
+</code></pre><hr>
 
 
 <h2 class="relative group"><strong>Функции с переменным количеством аргументов</strong> 
@@ -1074,13 +1132,13 @@
 </h2>
 
 
-<h3 class="relative group">Позиционные аргументы - *args 
-    <div id="%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B---args" class="anchor"></div>
+<h3 class="relative group">Позиционные аргументы – *args 
+    <div id="%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B--args" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B---args" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B--args" aria-label="Якорь">#</a>
     </span>        
     
 </h3>
@@ -1093,15 +1151,14 @@
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">tuple</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">tuple</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">tuple</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><ul>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+&lt;class &#39;tuple&#39;&gt;
+()
+&lt;class &#39;tuple&#39;&gt;
+(1, 2, 3)
+&lt;class &#39;tuple&#39;&gt;
+(&#39;a&#39;, &#39;b&#39;)
+</code></pre><ul>
 <li>В заголовке функции <code>my_func()</code> указан всего один параметр <code>args</code>, но со звездочкой перед ним. Звездочка в определении функции означает, что переменная (параметр) <code>args</code> получит в виде кортежа все аргументы, переданные в функцию при ее вызове от текущей позиции и до конца.</li>
 <li>При описании функции можно использовать только один параметр помеченный звездочкой, причем располагаться он должен в конце списка параметров, иначе последующим параметрам не достанется значений.</li>
 <li>Параметр со звёздочкой работает, даже если не передать аргументов.</li>
@@ -1112,18 +1169,17 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">my_sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">*</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="o">*</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="mi">10</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод</span>
-</span></span><span class="line"><span class="cl"><span class="mi">49</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: 49</span>
 </span></span></code></pre></div><hr>
 
 
-<h3 class="relative group">Именованные аргументы - **kwargs 
-    <div id="%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B---kwargs" class="anchor"></div>
+<h3 class="relative group">Именованные аргументы – **kwargs 
+    <div id="%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B--kwargs" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B---kwargs" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D0%B8%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B0%D1%80%D0%B3%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B--kwargs" aria-label="Якорь">#</a>
     </span>        
     
 </h3>
@@ -1134,15 +1190,14 @@
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Timur&#39;</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;Teacher&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">dict</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">{}</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">dict</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="k">class</span> <span class="err">&#39;</span><span class="nc">dict</span><span class="s1">&#39;&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Timur&#39;</span><span class="p">,</span> <span class="s1">&#39;job&#39;</span><span class="p">:</span> <span class="s1">&#39;Teacher&#39;</span><span class="p">}</span>
-</span></span></code></pre></div><ul>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+&lt;class &#39;dict&#39;&gt;
+{}
+&lt;class &#39;dict&#39;&gt;
+{&#39;a&#39;: 1, &#39;b&#39;: 2}
+&lt;class &#39;dict&#39;&gt;
+{&#39;name&#39;: &#39;Timur&#39;, &#39;job&#39;: &#39;Teacher&#39;}
+</code></pre><ul>
 <li>Именованные аргументы получаются в виде словаря, что позволяет сохранить имена аргументов в ключах.</li>
 <li>Именованные аргументы можно передавать в функцию &ldquo;пачкой&rdquo; в виде словаря. Для этого нужно перед словарём поставить две звёздочки.</li>
 <li>Параметр <code>**kwargs</code> пишется в самом конце, после последнего аргумента со значением по умолчанию. При этом функция может содержать и <code>*args</code> и <code>**kwargs</code> параметры:</li>
@@ -1156,23 +1211,22 @@
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Timur&#39;</span><span class="p">,</span> <span class="n">age</span><span class="o">=</span><span class="mi">28</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Timur&#39;</span><span class="p">,</span> <span class="n">age</span><span class="o">=</span><span class="mi">28</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">my_func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">job</span><span class="o">=</span><span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">1</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">Timur</span> <span class="mi">28</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;job&#39;</span><span class="p">:</span> <span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">:</span> <span class="s1">&#39;Python&#39;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="mi">1</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl"><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="n">Timur</span> <span class="mi">28</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;job&#39;</span><span class="p">:</span> <span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">:</span> <span class="s1">&#39;Python&#39;</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="mi">1</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">Gvido</span> <span class="mi">17</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;job&#39;</span><span class="p">:</span> <span class="s1">&#39;Teacher&#39;</span><span class="p">,</span> <span class="s1">&#39;language&#39;</span><span class="p">:</span> <span class="s1">&#39;Python&#39;</span><span class="p">}</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+1 2
+(3, 4)
+Timur 28
+{&#39;job&#39;: &#39;Teacher&#39;, &#39;language&#39;: &#39;Python&#39;}
+
+1 2
+()
+Timur 28
+{&#39;job&#39;: &#39;Teacher&#39;, &#39;language&#39;: &#39;Python&#39;}
+
+1 2
+(3, 4)
+Gvido 17
+{&#39;job&#39;: &#39;Teacher&#39;, &#39;language&#39;: &#39;Python&#39;}
+</code></pre><hr>
 
 
 <h2 class="relative group"><strong>Keyword-only аргументы</strong> 
@@ -1185,14 +1239,14 @@
     </span>        
     
 </h2>
-<p>В Python 3 добавили возможность пометить именованные аргументы функции так, чтобы вызвать функцию можно было, только передав эти аргументы по именам. Такие аргументы называются <code>keyword-only</code> и их нельзя передать в функцию в виде позиционных.</p>
+<p>В Python 3 добавили возможность пометить именованные аргументы функции так, чтобы вызвать функцию можно было, только передав эти аргументы по именам. Такие аргументы называются <code>keyword-only</code> и их нельзя передать в функцию в виде позиционных:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">make_circle</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="o">*</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">#код</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>                                     <span class="c1"># x=10, y=20, radius=5,  line_width=1, fill=True</span>
-</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>                          <span class="c1"># x=10, y=20, radius=7,  line_width=1, fill=True</span>
-</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>   <span class="c1"># x=10, y=20, radius=10, line_width=2, fill=False</span>
-</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>           <span class="c1"># x=10, y=20, radius=17, line_width=3, fill=True</span>
+</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>                                    <span class="c1"># x=10, y=20, radius=5,  line_width=1, fill=True</span>
+</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>                         <span class="c1"># x=10, y=20, radius=7,  line_width=1, fill=True</span>
+</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>  <span class="c1"># x=10, y=20, radius=10, line_width=2, fill=False</span>
+</span></span><span class="line"><span class="cl"><span class="n">make_circle</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">radius</span><span class="o">=</span><span class="mi">17</span><span class="p">,</span> <span class="n">line_width</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>          <span class="c1"># x=10, y=20, radius=17, line_width=3, fill=True</span>
 </span></span></code></pre></div><p>Здесь <code>*</code> выступает разделителем: отделяет обычные аргументы (их можно указывать по имени и позиционно) от строго именованных.<br>
 То есть аргументы <code>x</code>, <code>y</code> и <code>radius</code> могут быть переданы в качестве как позиционных, так и именованных аргументов. При этом аргументы <code>line_width</code> и <code>fill</code> могут быть переданы только как именованные аргументы.<br>
 Такой разделитель можно использовать только один раз в определении функции. Его нельзя применять в функциях с неограниченным количеством позиционных аргументов <code>*args</code>.</p>
@@ -1219,19 +1273,18 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello from function&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">func</span> <span class="o">=</span> <span class="n">hello</span>     <span class="c1">#  присваиваем переменной func функцию hello</span>
-</span></span><span class="line"><span class="cl"><span class="n">func</span><span class="p">()</span>           <span class="c1">#  вызываем функцию</span>
+</span></span><span class="line"><span class="cl"><span class="n">func</span> <span class="o">=</span> <span class="n">hello</span>  <span class="c1">#  присваиваем переменной func функцию hello</span>
+</span></span><span class="line"><span class="cl"><span class="n">func</span><span class="p">()</span>        <span class="c1">#  вызываем функцию</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Вывод: Hello from function</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">writeln</span> <span class="o">=</span> <span class="nb">print</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">writeln</span><span class="p">(</span><span class="s1">&#39;Hello world!&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">writeln</span><span class="p">(</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="n">Hello</span> <span class="n">world</span><span class="err">!</span>
-</span></span><span class="line"><span class="cl"><span class="n">Python</span>
-</span></span></code></pre></div><p>Присваивоение переменной списка функций:</p>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+Hello world!
+Python
+</code></pre><p>Присваивание переменной списка функций:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
 </span></span><span class="line"><span class="cl">
@@ -1244,20 +1297,49 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">funcs</span><span class="p">[</span><span class="mi">0</span><span class="p">](</span><span class="mi">5</span><span class="p">),</span> <span class="n">funcs</span><span class="p">[</span><span class="mi">1</span><span class="p">](</span><span class="mi">5</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Вывод: 25 125</span>
-</span></span></code></pre></div><p>Функции, способные в качестве аргумента принимать или/и возвращать другие функции, называются функциями <strong>высшего порядка</strong>.<br>
-Функция, определяющая условия сравнения элементов, называется <strong>компаратор</strong>.</p>
-<p>Такие встроенные функции, как <code>min()</code>, <code>max()</code>, <code>sorted()</code> могут принимать необязательный аргумент <code>key</code> - функцию, определяющую, по какому правилу будут сравниваться элементы (значение <code>key</code> должно быть функцией, принимающей один аргумент и возвращающей на его основе ключ для сравнения).</p>
+</span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Функции, способные в качестве аргумента принимать или/и возвращать другие функции, называются функциями <strong>высшего порядка</strong>.<br>
+Функция, определяющая условия сравнения элементов, называется <strong>компаратор</strong>.</span>
+</div>
+
+<p>Такие встроенные функции, как <code>min()</code>, <code>max()</code>, <code>sorted()</code> могут принимать необязательный аргумент <code>key</code> – функцию, определяющую, по какому правилу будут сравниваться элементы (значение <code>key</code> должно быть функцией, принимающей один аргумент и возвращающей на его основе ключ для сравнения).</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="o">-</span><span class="mi">50</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">87</span><span class="p">,</span> <span class="mi">117</span><span class="p">,</span> <span class="o">-</span><span class="mi">210</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="o">-</span><span class="mi">210</span>                                         <span class="c1"># максимальный по модулю элемент</span>
-</span></span><span class="line"><span class="cl"><span class="o">-</span><span class="mi">7</span>                                           <span class="c1"># минимальный по модулю элемент</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="o">-</span><span class="mi">50</span><span class="p">,</span> <span class="mi">87</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="mi">117</span><span class="p">,</span> <span class="o">-</span><span class="mi">210</span><span class="p">]</span> 
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">compare_by_second</span><span class="p">(</span><span class="n">point</span><span class="p">):</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+-210  # максимальный по модулю элемент
+-7    # минимальный по модулю элемент
+[-7, 8, 10, 32, -50, 87, -100, 117, -210] 
+</code></pre><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">compare_by_second</span><span class="p">(</span><span class="n">point</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
@@ -1267,8 +1349,8 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">points</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">18</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">)]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">compare_by_second</span><span class="p">))</span>   <span class="c1"># сортируем по второму значению кортежа</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">compare_by_sum</span><span class="p">))</span>      <span class="c1"># сортируем по сумме кортежа</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">compare_by_second</span><span class="p">))</span>  <span class="c1"># сортируем по второму значению кортежа</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">compare_by_sum</span><span class="p">))</span>     <span class="c1"># сортируем по сумме кортежа</span>
 </span></span></code></pre></div><hr>
 
 
@@ -1306,12 +1388,11 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">g</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">h</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="mi">5</span>
-</span></span><span class="line"><span class="cl"><span class="mi">57</span>
-</span></span></code></pre></div><p>Вложенную функцию (<code>square_polynom()</code>), которая использует параметры внешней функции (<code>generator_square_polynom()</code>), называют <strong>замыканием</strong>.</p>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+4
+5
+57
+</code></pre><p>Вложенную функцию (<code>square_polynom()</code>), которая использует параметры внешней функции (<code>generator_square_polynom()</code>), называют <strong>замыканием</strong>.</p>
 <hr>
 
 
@@ -1338,7 +1419,7 @@
     </span>        
     
 </h3>
-<p>Функция, преобразующая каждый элемент переданного итерируемого объекта (можно воспринимать как классическое представление функции в математике - отображение множества в другое множество).<br>
+<p>Функция, преобразующая каждый элемент переданного итерируемого объекта (можно воспринимать как классическое представление функции в математике – отображение множества в другое множество).<br>
 Возможная реализация:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">map</span><span class="p">(</span><span class="n">function</span><span class="p">,</span> <span class="n">items</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
@@ -1358,29 +1439,27 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">9</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">strings</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>        <span class="c1"># используем в качестве преобразователя - функцию str</span>
-</span></span><span class="line"><span class="cl"><span class="n">abs_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">abs</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>    <span class="c1"># используем в качестве преобразователя - функцию abs</span>
+</span></span><span class="line"><span class="cl"><span class="n">strings</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>      <span class="c1"># используем в качестве преобразователя функцию str</span>
+</span></span><span class="line"><span class="cl"><span class="n">abs_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">abs</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>  <span class="c1"># используем в качестве преобразователя функцию abs</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">squares</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>     <span class="c1"># используем в качестве преобразователя - функцию square</span>
-</span></span><span class="line"><span class="cl"><span class="n">cubes</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">cube</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>         <span class="c1"># используем в качестве преобразователя - функцию cube</span>
+</span></span><span class="line"><span class="cl"><span class="n">squares</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>   <span class="c1"># используем в качестве преобразователя функцию square</span>
+</span></span><span class="line"><span class="cl"><span class="n">cubes</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">cube</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>       <span class="c1"># используем в качестве преобразователя функцию cube</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">strings</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">abs_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">squares</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">cubes</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;-3&#39;</span><span class="p">,</span> <span class="s1">&#39;4&#39;</span><span class="p">,</span> <span class="s1">&#39;-5&#39;</span><span class="p">,</span> <span class="s1">&#39;6&#39;</span><span class="p">,</span> <span class="s1">&#39;-9&#39;</span><span class="p">,</span> <span class="s1">&#39;0&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">81</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">27</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="o">-</span><span class="mi">125</span><span class="p">,</span> <span class="mi">216</span><span class="p">,</span> <span class="o">-</span><span class="mi">729</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
-</span></span></code></pre></div><p>Мы также можем строить цепочки преобразований, несколько раз вызывая функцию <code>map()</code> (сначала мы преобразуем список строк в список чисел, затем находим их модуль внешней функцией <code>map()</code>):</p>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+[&#39;1&#39;, &#39;2&#39;, &#39;-3&#39;, &#39;4&#39;, &#39;-5&#39;, &#39;6&#39;, &#39;-9&#39;, &#39;0&#39;]
+[1, 2, 3, 4, 5, 6, 9, 0]
+[1, 4, 9, 16, 25, 36, 81, 0]
+[1, 8, -27, 64, -125, 216, -729, 0]
+</code></pre><p>Мы также можем строить цепочки преобразований, несколько раз вызывая функцию <code>map()</code> (сначала мы преобразуем список строк в список чисел, затем находим их модуль внешней функцией <code>map()</code>):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;-1&#39;</span><span class="p">,</span> <span class="s1">&#39;20&#39;</span><span class="p">,</span> <span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="s1">&#39;-94&#39;</span><span class="p">,</span> <span class="s1">&#39;65&#39;</span><span class="p">,</span> <span class="s1">&#39;6&#39;</span><span class="p">,</span> <span class="s1">&#39;-970&#39;</span><span class="p">,</span> <span class="s1">&#39;8&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">new_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">abs</span><span class="p">,</span> <span class="nb">map</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">new_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">94</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">970</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [1, 20, 3, 94, 65, 6, 970, 8]</span>
 </span></span></code></pre></div><hr>
 
 
@@ -1420,11 +1499,10 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">odd_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">large_words</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="s1">&#39;останутся&#39;</span><span class="p">,</span> <span class="s1">&#39;длинные&#39;</span><span class="p">]</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+[1, 3, 5, 7, 9, 11, 13]
+[&#39;останутся&#39;, &#39;длинные&#39;]
+</code></pre><hr>
 
 
 <h3 class="relative group">Функция <code>reduce()</code> 
@@ -1460,11 +1538,10 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">product</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">15</span>
-</span></span><span class="line"><span class="cl"><span class="mi">120</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+15
+120
+</code></pre><hr>
 
 
 <h2 class="relative group"><strong>Встроенные функции map(), filter(), reduce()</strong> 
@@ -1489,19 +1566,18 @@
     </span>        
     
 </h3>
-<p>Функция, применяющая другую функцию к итерируемому объекту. Имеет сигнатуру <code>map(func, *iterables)</code>. В отличии от нашей реализации функция она может принимать сразу несколько последовательностей, переменное количество аргументов. Под подследовательностями имеются ввиду <u>списки, строки, кортежи, множества, словари</u>.</p>
+<p>Функция, применяющая другую функцию к итерируемому объекту. Имеет сигнатуру <code>map(func, *iterables)</code>. В отличии от нашей реализации она может принимать сразу несколько последовательностей, переменное количество аргументов. Под подследовательностями имеются ввиду <u>списки, строки, кортежи, множества, словари</u>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">increase</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">num</span> <span class="o">+</span> <span class="mi">7</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">new_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">increase</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>     <span class="c1">#  используем встроенную функцию map()</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_numbers</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="n">increase</span><span class="p">,</span> <span class="n">numbers</span><span class="p">)</span>  <span class="c1"># используем встроенную функцию map()</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">new_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nb">map</span> <span class="nb">object</span> <span class="n">at</span> <span class="mi">0</span><span class="n">x</span><span class="o">...&gt;</span>
-</span></span></code></pre></div><p>Этот объект можно итерировать, подобные ему объекты называются <strong>итераторами</strong>. Если мы хотим получить список/кортеж из итератора, нужно воспользоваться функцией <code>list()</code>/<code>tuple()</code>, а если распкаовать, то <code>*</code> (при этом сделать эти действия возможно только единожды, т.к. итератор &ldquo;исчерпывает&rdquo; себя).</p>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: &lt;map object at 0x...&gt;</span>
+</span></span></code></pre></div><p>Вернулся итерируемый объект <code>&lt;map object at 0x...&gt;</code>. Подобные ему объекты называются <strong>итераторами</strong>. Если мы хотим получить список/кортеж из итератора, нужно воспользоваться функцией <code>list()</code>/<code>tuple()</code>, а если распкаовать, то <code>*</code> (при этом сделать эти действия возможно только единожды, т.к. итератор &ldquo;исчерпывает&rdquo; себя).</p>
 <p>Функции <code>map()</code> можно передать несколько последовательностей. В этом случае в функцию обратного вызова <code>func</code> будут передаваться сразу несколько элементов, расположенных в последовательностях на одинаковых позициях. При этом, если в последовательностях разное количество элементов, то последовательность с минимальным количеством элементов становится ограничителем.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">elem1</span><span class="p">,</span> <span class="n">elem2</span><span class="p">,</span> <span class="n">elem3</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">elem1</span> <span class="o">+</span> <span class="n">elem2</span> <span class="o">+</span> <span class="n">elem3</span>
@@ -1511,27 +1587,25 @@
 </span></span><span class="line"><span class="cl"><span class="n">numbers2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">numbers3</span> <span class="o">=</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">500</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">new_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers1</span><span class="p">,</span> <span class="n">numbers2</span><span class="p">,</span> <span class="n">numbers3</span><span class="p">))</span>  <span class="c1">#  преобразуем итератор в список</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers1</span><span class="p">,</span> <span class="n">numbers2</span><span class="p">,</span> <span class="n">numbers3</span><span class="p">))</span>  <span class="c1"># преобразуем итератор в список</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">new_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">111</span><span class="p">,</span> <span class="mi">222</span><span class="p">,</span> <span class="mi">333</span><span class="p">,</span> <span class="mi">444</span><span class="p">,</span> <span class="mi">555</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [111, 222, 333, 444, 555]</span>
 </span></span></code></pre></div><p>Пример удобного использования функции <code>map()</code>, которой передано две последовательности:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">circle_areas</span> <span class="o">=</span> <span class="p">[</span><span class="mf">3.56773</span><span class="p">,</span> <span class="mf">5.57668</span><span class="p">,</span> <span class="mf">4.31914</span><span class="p">,</span> <span class="mf">6.20241</span><span class="p">,</span> <span class="mf">91.01344</span><span class="p">,</span> <span class="mf">32.01213</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">result1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">round</span><span class="p">,</span> <span class="n">circle_areas</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="mi">6</span><span class="p">))</span>         <span class="c1"># округляем числа до 1 знака после запятой</span>
-</span></span><span class="line"><span class="cl"><span class="n">result2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">round</span><span class="p">,</span> <span class="n">circle_areas</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)))</span>   <span class="c1"># округляем числа до 1,2,...,6 знаков после запятой</span>
+</span></span><span class="line"><span class="cl"><span class="n">result1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">round</span><span class="p">,</span> <span class="n">circle_areas</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="mi">6</span><span class="p">))</span>        <span class="c1"># округляем числа до 1 знака после запятой</span>
+</span></span><span class="line"><span class="cl"><span class="n">result2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">round</span><span class="p">,</span> <span class="n">circle_areas</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">)))</span>  <span class="c1"># округляем числа до 1,2,...,6 знаков после запятой</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">circle_areas</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">result1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">result2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mf">3.56773</span><span class="p">,</span> <span class="mf">5.57668</span><span class="p">,</span> <span class="mf">4.31914</span><span class="p">,</span> <span class="mf">6.20241</span><span class="p">,</span> <span class="mf">91.01344</span><span class="p">,</span> <span class="mf">32.01213</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mf">3.6</span><span class="p">,</span> <span class="mf">5.6</span><span class="p">,</span> <span class="mf">4.3</span><span class="p">,</span> <span class="mf">6.2</span><span class="p">,</span> <span class="mf">91.0</span><span class="p">,</span> <span class="mf">32.0</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mf">3.6</span><span class="p">,</span> <span class="mf">5.58</span><span class="p">,</span> <span class="mf">4.319</span><span class="p">,</span> <span class="mf">6.2024</span><span class="p">,</span> <span class="mf">91.01344</span><span class="p">,</span> <span class="mf">32.01213</span><span class="p">]</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+[3.56773, 5.57668, 4.31914, 6.20241, 91.01344, 32.01213]
+[3.6, 5.6, 4.3, 6.2, 91.0, 32.0]
+[3.6, 5.58, 4.319, 6.2024, 91.01344, 32.01213]
+</code></pre><hr>
 
 
 <h3 class="relative group">Встроенная функция <code>filter()</code> 
@@ -1550,24 +1624,22 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">positive_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1">#  преобразуем итератор в список</span>
+</span></span><span class="line"><span class="cl"><span class="n">positive_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1"># преобразуем итератор в список</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">positive_numbers</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [2, 4, 0, 10]</span>
 </span></span></code></pre></div><p>Функция <code>filter()</code> также возвращает итератор.</p>
-<p>Встроенной функции <code>filter()</code> можно в качестве первого параметра <code>func</code> передать значение <code>None</code>. В таком случае каждый элемент последовательности будет проверен на соответствие значению <code>True</code>. Если элемент в логическом контексте возвращает значение <code>False</code>, то он не будет добавлен в возвращаемый результат. В следующем коде значения списка: <code>0, '', None, [], ()</code> позиционируется как <code>False</code>.</p>
+<p>Встроенной функции <code>filter()</code> можно в качестве первого параметра <code>func</code> передать значение <code>None</code>. В таком случае каждый элемент последовательности будет проверен на соответствие значению <code>True</code>. Если элемент в логическом контексте возвращает значение <code>False</code>, то он не будет добавлен в возвращаемый результат. В следующем коде значения списка <code>[0, '', None, [], ()]</code> позиционируется как <code>False</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">true_values</span> <span class="o">=</span> <span class="nb">filter</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="p">[],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">()])</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">true_values</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="mi">10</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+1
+10
+[1, 2, 3]
+</code></pre><hr>
 
 
 <h3 class="relative group">Функция <code>reduce()</code> 
@@ -1590,11 +1662,10 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="n">total</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>   <span class="c1"># в качестве начального значения 0</span>
+</span></span><span class="line"><span class="cl"><span class="n">total</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">numbers</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>  <span class="c1"># в качестве начального значения 0</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">total</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">55</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: 55</span>
 </span></span></code></pre></div><hr>
 
 
@@ -1608,7 +1679,7 @@
     </span>        
     
 </h2>
-<p><code>lambda</code> - безымянные однострочные функции (называются анонимными или лямбда-функциями). По сути эти функции являются выражениями, при этом они имеют такой же тип данных, как обычные функции - <code>&lt;class 'function'&gt;</code>. После определения их можно сразу вызвать: <code>print((lambda х, у: х + у)(5, 10))     # 5 + 10</code>.
+<p><code>lambda</code> – безымянные однострочные функции (называются анонимными или лямбда-функциями). По сути эти функции являются выражениями, при этом они имеют такой же тип данных, как обычные функции – <code>&lt;class 'function'&gt;</code>. После определения их можно сразу вызвать: <code>print((lambda х, у: х + у)(5, 10))     # 5 + 10</code>.
 Общий формат определения: <code>lambda список_параметров: выражение</code>. В теле лямбда-функции нельзя использовать несколько действий и циклы, но можно использовать тернарный условный оператор.
 Применение таких функций оправдано в следующих случаях:</p>
 <ul>
@@ -1616,20 +1687,19 @@
 <li>передача функций в качестве аргумента другим функциям;</li>
 <li>возвращение функции в качестве результата другой функции.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">standard_function</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>            <span class="c1">#  стандартное объявление функции</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">standard_function</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>        <span class="c1">#  стандартное объявление функции</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">lambda_function</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span>      <span class="c1">#  объявление анонимной функции</span>
+</span></span><span class="line"><span class="cl"><span class="n">lambda_function</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span>  <span class="c1">#  объявление анонимной функции</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">standard_function</span><span class="p">(</span><span class="mi">7</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">lambda_function</span><span class="p">(</span><span class="mi">7</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">14</span>
-</span></span><span class="line"><span class="cl"><span class="mi">14</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">f1</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">20</span>               <span class="c1"># функция без параметров</span>
-</span></span><span class="line"><span class="cl"><span class="n">f2</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">х</span><span class="p">,</span> <span class="n">у</span><span class="p">:</span> <span class="n">х</span> <span class="o">+</span> <span class="n">у</span>            <span class="c1"># функция с двумя параметрами</span>
-</span></span><span class="line"><span class="cl"><span class="n">f3</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">х</span><span class="p">,</span> <span class="n">у</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="n">х</span> <span class="o">+</span> <span class="n">у</span> <span class="o">+</span> <span class="n">z</span>     <span class="c1"># функция с тремя параметрами</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+14
+14
+</code></pre><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">f1</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="mi">10</span> <span class="o">+</span> <span class="mi">20</span>            <span class="c1"># функция без параметров</span>
+</span></span><span class="line"><span class="cl"><span class="n">f2</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">х</span><span class="p">,</span> <span class="n">у</span><span class="p">:</span> <span class="n">х</span> <span class="o">+</span> <span class="n">у</span>         <span class="c1"># функция с двумя параметрами</span>
+</span></span><span class="line"><span class="cl"><span class="n">f3</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">х</span><span class="p">,</span> <span class="n">у</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="n">х</span> <span class="o">+</span> <span class="n">у</span> <span class="o">+</span> <span class="n">z</span>  <span class="c1"># функция с тремя параметрами</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f1</span><span class="p">())</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f2</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
@@ -1637,8 +1707,8 @@
 </span></span></code></pre></div><p>Лямбда-функции для нетипичной сортировки кортежей:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">points</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">18</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">)]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">point</span><span class="p">:</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>                 <span class="c1"># сортируем по второму значению кортежа</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">point</span><span class="p">:</span> <span class="n">point</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>      <span class="c1"># сортируем по сумме элементов кортежа</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">point</span><span class="p">:</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>             <span class="c1"># сортируем по второму значению кортежа</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">point</span><span class="p">:</span> <span class="n">point</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>  <span class="c1"># сортируем по сумме элементов кортежа</span>
 </span></span></code></pre></div><hr>
 
 
@@ -1657,9 +1727,9 @@
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">new_numbers1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>      <span class="c1">#  увеличиваем на 1</span>
-</span></span><span class="line"><span class="cl"><span class="n">new_numbers2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>      <span class="c1">#  удваиваем</span>
-</span></span><span class="line"><span class="cl"><span class="n">new_numbers3</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>     <span class="c1">#  возводим в квадрат</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_numbers1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>   <span class="c1"># увеличиваем на 1</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_numbers2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>   <span class="c1"># удваиваем</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_numbers3</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1"># возводим в квадрат</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">strings</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;d&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">]</span>
@@ -1671,15 +1741,15 @@
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="o">-</span><span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">positive_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>      <span class="c1">#  положительные числа</span>
-</span></span><span class="line"><span class="cl"><span class="n">large_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>        <span class="c1">#  числа, большие 50</span>
-</span></span><span class="line"><span class="cl"><span class="n">even_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>     <span class="c1">#  четные числа</span>
+</span></span><span class="line"><span class="cl"><span class="n">positive_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>   <span class="c1"># положительные числа</span>
+</span></span><span class="line"><span class="cl"><span class="n">large_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">50</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>     <span class="c1"># числа, большие 50</span>
+</span></span><span class="line"><span class="cl"><span class="n">even_numbers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1"># четные числа</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;stepik&#39;</span><span class="p">,</span> <span class="s1">&#39;beegeek&#39;</span><span class="p">,</span> <span class="s1">&#39;iq-option&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">new_words1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">w</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">6</span><span class="p">,</span> <span class="n">words</span><span class="p">))</span>    <span class="c1">#  слова длиною больше 6 символов</span>
-</span></span><span class="line"><span class="cl"><span class="n">new_words2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">w</span><span class="p">:</span> <span class="s1">&#39;e&#39;</span> <span class="ow">in</span> <span class="n">w</span><span class="p">,</span> <span class="n">words</span><span class="p">))</span>      <span class="c1">#  слова содержащие букву e</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_words1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">w</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">6</span><span class="p">,</span> <span class="n">words</span><span class="p">))</span>  <span class="c1"># слова длиною больше 6 символов</span>
+</span></span><span class="line"><span class="cl"><span class="n">new_words2</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">w</span><span class="p">:</span> <span class="s1">&#39;e&#39;</span> <span class="ow">in</span> <span class="n">w</span><span class="p">,</span> <span class="n">words</span><span class="p">))</span>    <span class="c1"># слова содержащие букву e</span>
 </span></span></code></pre></div><ul>
 <li>Функция <code>reduce()</code>:</li>
 </ul>
@@ -1691,12 +1761,11 @@
 </span></span><span class="line"><span class="cl"><span class="n">summa</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">numbers</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">product</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">,</span> <span class="n">numbers</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">sentence</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="s1">&#39; loves &#39;</span> <span class="o">+</span> <span class="n">y</span><span class="p">,</span> <span class="n">words</span><span class="p">,</span> <span class="s1">&#39;Everyone&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">21</span>
-</span></span><span class="line"><span class="cl"><span class="mi">720</span>
-</span></span><span class="line"><span class="cl"><span class="n">Everyone</span> <span class="n">loves</span> <span class="n">python</span> <span class="n">loves</span> <span class="n">stepik</span> <span class="n">loves</span> <span class="n">beegeek</span> <span class="n">loves</span> <span class="n">iq</span><span class="o">-</span><span class="n">option</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+21
+720
+Everyone loves python loves stepik loves beegeek loves iq-option
+</code></pre><hr>
 
 
 <h3 class="relative group">Возвращение лямбда-функции в качестве результата другой функции 
@@ -1709,7 +1778,7 @@
     </span>        
     
 </h3>
-<p>Следующий пример показывает, что анонимные функции являются <strong>замыканиями</strong>: возвращаемая функция запоминает значения переменных <code>a, b, c</code> из внешнего окружения:</p>
+<p>Следующий пример показывает, что анонимные функции являются <strong>замыканиями</strong>, т.е. возвращаемая функция запоминает значения переменных <code>a, b, c</code> из внешнего окружения:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">generator_square_polynom</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">a</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">b</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">c</span>
 </span></span></code></pre></div><hr>
@@ -1750,9 +1819,9 @@
 <ul>
 <li>позиционные;</li>
 <li>именованные;</li>
-<li><code>*args</code> - переменный список позиционных аргументов;</li>
-<li><code>**kwargs</code> - переменный список именованных аргументов;</li>
-<li><code>*</code> - обязательные аргументы.</li>
+<li><code>*args</code> – переменный список позиционных аргументов;</li>
+<li><code>**kwargs</code> – переменный список именованных аргументов;</li>
+<li><code>*</code> – обязательные аргументы.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">f1</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span>
 </span></span><span class="line"><span class="cl"><span class="n">f2</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="o">=</span><span class="mi">3</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span>
@@ -1768,16 +1837,15 @@
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f4</span><span class="p">(</span><span class="n">one</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">two</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">three</span><span class="o">=</span><span class="mi">3</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f5</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">f5</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">z</span><span class="o">=</span><span class="mi">3</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="mi">6</span>
-</span></span><span class="line"><span class="cl"><span class="mi">6</span>
-</span></span><span class="line"><span class="cl"><span class="mi">6</span>
-</span></span><span class="line"><span class="cl"><span class="mi">15</span>
-</span></span><span class="line"><span class="cl"><span class="mi">6</span>
-</span></span><span class="line"><span class="cl"><span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="mi">6</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+6
+6
+6
+15
+6
+1
+6
+</code></pre><hr>
 
 
 <h2 class="relative group"><strong>Функции any(), all(), zip(), enumerate()</strong> 
@@ -1815,28 +1883,26 @@
 </span></span><span class="line"><span class="cl"><span class="n">dict2</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Zero&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;One&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Two&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(</span><span class="n">dict1</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(</span><span class="n">dict2</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span></code></pre></div><p>Если переданный итерируемый объект пуст, то функция <code>all()</code> возвращает значение <strong><code>True</code></strong>.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">([]))</span>          <span class="c1">#  передаем пустой список</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(()))</span>          <span class="c1">#  передаем пустой кортеж</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>          <span class="c1">#  передаем пустую строку</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">([[],</span> <span class="p">[]]))</span>    <span class="c1">#  передаем список, содержащий пустые списки</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+True
+False
+False
+False
+False
+
+False
+True
+</code></pre><p>Если переданный итерируемый объект пуст, то функция <code>all()</code> возвращает значение <strong><code>True</code></strong>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">([]))</span>        <span class="c1"># передаем пустой список</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(()))</span>        <span class="c1"># передаем пустой кортеж</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>        <span class="c1"># передаем пустую строку</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">([[],</span> <span class="p">[]]))</span>  <span class="c1"># передаем список, содержащий пустые списки</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+True
+True
+True
+False
+</code></pre><hr>
 
 
 <h3 class="relative group">Функция <code>any()</code> 
@@ -1862,28 +1928,26 @@
 </span></span><span class="line"><span class="cl"><span class="n">dict2</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Zero&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;One&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">dict1</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="n">dict2</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span></code></pre></div><p>Eсли переданный итерируемый объект пуст, то функция <code>any()</code> возвращает значение <strong><code>False</code></strong>.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">([]))</span>          <span class="c1">#  передаем пустой список</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(()))</span>          <span class="c1">#  передаем пустой кортеж</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>          <span class="c1">#  передаем пустую строку</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">([[],</span> <span class="p">[]]))</span>    <span class="c1">#  передаем список, содержащий пустые списки</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span></code></pre></div><hr>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+False
+True
+True
+True
+True
+
+False
+True
+</code></pre><p>Eсли переданный итерируемый объект пуст, то функция <code>any()</code> возвращает значение <strong><code>False</code></strong>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">([]))</span>        <span class="c1"># передаем пустой список</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(()))</span>        <span class="c1"># передаем пустой кортеж</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>        <span class="c1"># передаем пустую строку</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">any</span><span class="p">([[],</span> <span class="p">[]]))</span>  <span class="c1"># передаем список, содержащий пустые списки</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+False
+False
+False
+False
+</code></pre><hr>
 
 
 <h3 class="relative group">Функции <code>all()</code>, <code>any()</code> в связке с <code>map()</code> 
@@ -1899,7 +1963,7 @@
 <p>Следующий код проверяет, все ли элементы списка больше 10:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">231</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">89</span><span class="p">,</span> <span class="mi">91</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">10</span> <span class="k">else</span> <span class="kc">False</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1"># Анонимную функцию можно упростить до lambda x: x &gt; 10</span>
+</span></span><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="nb">all</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">10</span> <span class="k">else</span> <span class="kc">False</span><span class="p">,</span> <span class="n">numbers</span><span class="p">))</span>  <span class="c1"># анонимную функцию можно упростить до lambda x: x &gt; 10</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">result</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Все числа больше 10&#39;</span><span class="p">)</span>
@@ -1927,12 +1991,11 @@
     </span>        
     
 </h3>
-<p>Встроенная функция <code>enumerate()</code> возвращает кортеж из индекса элемента и самого элемента переданной ей коллекции: <code>enumerate(iterable, start)</code>, где <code>iterable</code> - итерируемый объект (колллекция), а <code>start</code> - необязательный параметр, задающий начальное значение индекса (по умолчанию <code>start = 0</code>). Эта функция возвращает объект-итератор, который можно перебрать, преобразовать в список функцией <code>list()</code> или распаковать <code>*</code>.</p>
+<p>Встроенная функция <code>enumerate()</code> возвращает кортеж из индекса элемента и самого элемента переданной ей коллекции: <code>enumerate(iterable, start)</code>, где <code>iterable</code> – итерируемый объект (колллекция), а <code>start</code> – необязательный параметр, задающий начальное значение индекса (по умолчанию <code>start = 0</code>). Эта функция возвращает объект-итератор, который можно перебрать, преобразовать в список функцией <code>list()</code> или распаковать <code>*</code>.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="n">colors</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">1</span><span class="p">)))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;green&#39;</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [(1, &#39;red&#39;), (2, &#39;green&#39;), (3, &#39;blue&#39;)]</span>
 </span></span></code></pre></div><hr>
 
 
@@ -1954,8 +2017,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">words</span><span class="p">,</span> <span class="n">romans</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;II&#39;</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [(1, &#39;one&#39;, &#39;I&#39;), (2, &#39;two&#39;, &#39;II&#39;)]</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">romans</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;I&#39;</span><span class="p">,</span> <span class="s1">&#39;II&#39;</span><span class="p">,</span> <span class="s1">&#39;III&#39;</span><span class="p">]</span>
@@ -1963,8 +2025,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbers</span><span class="p">,</span> <span class="n">words</span><span class="p">,</span> <span class="n">romans</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: </span>
-</span></span><span class="line"><span class="cl"><span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;I&#39;</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;II&#39;</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">,</span> <span class="s1">&#39;III&#39;</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: [(1, &#39;one&#39;, &#39;I&#39;), (2, &#39;two&#39;, &#39;II&#39;), (3, &#39;three&#39;, &#39;III&#39;)]</span>
 </span></span></code></pre></div><p>Частые случаи использования <code>zip()</code>:</p>
 <ul>
 <li>Для создания словарей, если ключи и значения находятся в разных списках:</li>
@@ -1975,8 +2036,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">info</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">values</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">info</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;Timur&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">28</span><span class="p">,</span> <span class="s1">&#39;gender&#39;</span><span class="p">:</span> <span class="s1">&#39;male&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: {&#39;name&#39;: &#39;Timur&#39;, &#39;age&#39;: 28, &#39;gender&#39;: &#39;male&#39;}</span>
 </span></span></code></pre></div><ul>
 <li>Для параллельного итерирования по разным коллекциям:</li>
 </ul>
@@ -1985,12 +2045,11 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Вывод:</span>
-</span></span><span class="line"><span class="cl"><span class="n">Timur</span> <span class="mi">28</span>
-</span></span><span class="line"><span class="cl"><span class="n">Ruslan</span> <span class="mi">21</span>
-</span></span><span class="line"><span class="cl"><span class="n">Rustam</span> <span class="mi">19</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+Timur 28
+Ruslan 21
+Rustam 19
+</code></pre>
         </div>
         
         
@@ -2073,8 +2132,8 @@
           
         
       <script>
-        var oid = "views_posts\\functions2\\index.md"
-        var oid_likes = "likes_posts\\functions2\\index.md"
+        var oid = "views_posts\\functions\\index.md"
+        var oid_likes = "likes_posts\\functions\\index.md"
       </script>
       
       
