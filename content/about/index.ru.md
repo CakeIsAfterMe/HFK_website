@@ -10,6 +10,8 @@ cascade:
   showZenMode: false
   showPagination: false
   showTableOfContents: false
+  showReadingTime: false
+  showWordCount: false
 ---
 
 {{< lead >}}

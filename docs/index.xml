@@ -44,7 +44,7 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/big_o/</guid>
-      <description>Всё про нотацию Big O на примерах базовых колллекций в PythonBig O - нотация, использующаяся в программировании, информатике для описания сложности алгоритмов.</description>
+      <description>Всё про нотацию Big O на примерах базовых колллекций в PythonBig O – нотация, использующаяся в программировании, информатике для описания сложности алгоритмов.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/big_o/featurewaves.svg" />
     </item>
     
@@ -106,6 +106,16 @@
       <guid>http://localhost:1313/HFK_website/posts/collections/</guid>
       <description>Списки, кортежи, множества, словари и всё, что с ними связано.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg" />
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/HFK_website/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/python/</guid>
+      <description>Серия конспектов по языку программирования Python.</description>
+      
     </item>
     
   </channel>

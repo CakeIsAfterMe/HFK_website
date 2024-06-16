@@ -16,14 +16,8 @@
   weight = 10
 
 [[main]]
-  name = "Python"
-  parent = "Конспекты"
-  pageRef = "series/python"
-  weight = 20
-
-[[main]]
-  name = "Авторы"
-  pageref = "authors"
+  name = "Проекты"
+  pageRef = ""
   weight = 11
 
 [[main]]
@@ -79,7 +73,7 @@
   pageRef = "tags"
   weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+  name = "Авторы"
+  pageref = "authors"
+  weight = 11
