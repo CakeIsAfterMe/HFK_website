@@ -9,13 +9,13 @@
     <copyright>© 2024 Иван Бережной</copyright>
     <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Работа с датой и временем в Python. Часть 2</title>
+      <title>Работа с датой и временем. Часть 2</title>
       <link>http://localhost:1313/HFK_website/posts/date_and_time_2/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/date_and_time_2/</guid>
-      <description>Модуль time #Для использования: import time</description>
-      
+      <description>Больше модулей для работы с временем и датой, измерение времени выполнения программы.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/date_and_time_2/featurebackground.svg" />
     </item>
     
   </channel>
