@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Работа с датой и временем в Python. Ч.2</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_2/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_2/</guid>
+      <description>Модуль time #Для использования: import time</description>
+      
+    </item>
+    
+    <item>
+      <title>Работа с датой и временем в Python. Часть 1</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_1/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_1/</guid>
+      <description>Типы данных date и time #Для удобной работы с датой и временем в Python есть модуль datetime.</description>
+      
+    </item>
+    
     <item>
       <title>Big O</title>
       <link>http://localhost:1313/HFK_website/posts/big_o/</link>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module on HFK</title>
+    <link>http://localhost:1313/HFK_website/tags/module/</link>
+    <description>Recent content in Module on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/module/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Работа с датой и временем в Python. Ч.2</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_2/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_2/</guid>
+      <description>Модуль time #Для использования: import time</description>
+      
+    </item>
+    
+    <item>
+      <title>Работа с датой и временем в Python. Часть 1</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_1/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_1/</guid>
+      <description>Типы данных date и time #Для удобной работы с датой и временем в Python есть модуль datetime.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
