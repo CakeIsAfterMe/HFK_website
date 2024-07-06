@@ -9,5 +9,6 @@ cascade:
   showDate: false
   showZenMode: false
   showPagination: false
+  sharingLinks: false
 ---
 

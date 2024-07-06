@@ -3,7 +3,7 @@ title: "Работа с датой и временем. Часть 1"
 date: 2024-06-16
 draft: false
 description: ""
-tags: ["python", "datetime", "date", "module"]
+tags: ["python", "datetime", "date", "modules", "datatypes"]
 series: ["Python"]
 series_order: 7
 ---

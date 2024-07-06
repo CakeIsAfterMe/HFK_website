@@ -3,7 +3,7 @@ title: "Модули string и random"
 date: 2024-05-13
 draft: false
 description: ""
-tags: ["python", "coding", "string", "random", "modules"]
+tags: ["python", "string", "random", "modules"]
 series: ["Python"]
 series_order: 2
 ---

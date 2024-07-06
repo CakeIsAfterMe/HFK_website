@@ -3,7 +3,7 @@ title: "Decimal, Fraction и комлексные числа в Python"
 date: 2024-05-14
 draft: false
 description: ""
-tags: ["python", "coding", "datatypes"]
+tags: ["python", "datatypes"]
 series: ["Python"]
 series_order: 3
 ---

@@ -4,13 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/HFK_website/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/HFK_website/posts/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/HFK_website/posts/stdin_stdout/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

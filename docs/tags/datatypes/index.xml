@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Потоковый ввод и вывод</title>
+      <link>http://localhost:1313/HFK_website/posts/stdin_stdout/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/stdin_stdout/</guid>
+      <description>Кратко про потоковый ввод stdin и потоковый вывод stdout.</description>
+      
+    </item>
+    
+    <item>
+      <title>Работа с датой и временем. Часть 2</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_2/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_2/</guid>
+      <description>Больше модулей для работы с временем и датой, измерение времени выполнения программы.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/date_and_time_2/featurebackground.svg" />
+    </item>
+    
+    <item>
+      <title>Работа с датой и временем. Часть 1</title>
+      <link>http://localhost:1313/HFK_website/posts/date_and_time_1/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/date_and_time_1/</guid>
+      <description>Модули и типы данных для работы со временем, датой и временными промежутками в языке программирования Python.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/date_and_time_1/featureripples.svg" />
+    </item>
+    
     <item>
       <title>Decimal, Fraction и комлексные числа в Python</title>
       <link>http://localhost:1313/HFK_website/posts/frac_dec_compl/</link>

@@ -3,7 +3,7 @@ title: "Парадигмы программирования"
 date: 2024-05-25
 draft: false
 description: ""
-tags: ["coding", "paradigms"]
+tags: ["paradigms"]
 ---
 
 {{< lead >}}

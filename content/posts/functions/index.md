@@ -3,7 +3,7 @@ title: "Функции в Python"
 date: 2024-05-16
 draft: false
 description: ""
-tags: ["python", "coding", "functions"]
+tags: ["python", "functions"]
 series: ["Python"]
 series_order: 5
 ---

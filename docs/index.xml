@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Потоковый ввод и вывод</title>
+      <link>http://localhost:1313/HFK_website/posts/stdin_stdout/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/stdin_stdout/</guid>
+      <description>Кратко про потоковый ввод stdin и потоковый вывод stdout.</description>
+      
+    </item>
+    
     <item>
       <title>Работа с датой и временем. Часть 2</title>
       <link>http://localhost:1313/HFK_website/posts/date_and_time_2/</link>
