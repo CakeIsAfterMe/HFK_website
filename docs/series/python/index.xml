@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/series/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/series/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Работа с csv файлами в Python</title>
+      <link>http://localhost:1313/HFK_website/posts/csv_json/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/csv_json/</guid>
+      <description>Управление текстовыми файлами формата csv в языке программирования PythonФормат CSV #CSV (от англ.</description>
+      
+    </item>
+    
     <item>
       <title>Потоковый ввод и вывод</title>
       <link>http://localhost:1313/HFK_website/posts/stdin_stdout/</link>
@@ -15,7 +25,7 @@
       
       <guid>http://localhost:1313/HFK_website/posts/stdin_stdout/</guid>
       <description>Кратко про потоковый ввод stdin и потоковый вывод stdout.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/stdin_stdout/featurefireflies.svg" />
     </item>
     
     <item>
@@ -39,12 +49,12 @@
     </item>
     
     <item>
-      <title>Работа с файлами в Python</title>
+      <title>Работа с txt файлами в Python</title>
       <link>http://localhost:1313/HFK_website/posts/work_with_files/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/work_with_files/</guid>
-      <description>Управление файлами с помощью языка программирования PythonПрограммы, которые мы писали до сих пор, требовали повторного ввода данных при каждом запуске, потому что, как только программа заканчивает свою работу, данные для переменных исчезают из оперативной памяти.</description>
+      <description>Управление текстовыми и банарными файлами с помощью языка программирования PythonПрограммы, которые мы писали до сих пор, требовали повторного ввода данных при каждом запуске, потому что, как только программа заканчивает свою работу, данные для переменных исчезают из оперативной памяти.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/work_with_files/featurerain.svg" />
     </item>
     

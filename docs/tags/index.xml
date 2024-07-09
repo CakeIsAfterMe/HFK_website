@@ -7,11 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Files</title>
+      <link>http://localhost:1313/HFK_website/tags/files/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/tags/files/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>http://localhost:1313/HFK_website/tags/modules/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/tags/modules/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Python</title>
       <link>http://localhost:1313/HFK_website/tags/python/</link>
-      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/tags/python/</guid>
       <description></description>
@@ -34,16 +54,6 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/tags/datatypes/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Modules</title>
-      <link>http://localhost:1313/HFK_website/tags/modules/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/HFK_website/tags/modules/</guid>
       <description></description>
       
     </item>
@@ -109,16 +119,6 @@
     </item>
     
     <item>
-      <title>Files</title>
-      <link>http://localhost:1313/HFK_website/tags/files/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/HFK_website/tags/files/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Functions</title>
       <link>http://localhost:1313/HFK_website/tags/functions/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
@@ -154,16 +154,6 @@
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/tags/string/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Module</title>
-      <link>http://localhost:1313/HFK_website/tags/module/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/HFK_website/tags/module/</guid>
       <description></description>
       
     </item>

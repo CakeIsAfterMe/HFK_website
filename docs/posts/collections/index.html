@@ -55,7 +55,7 @@
   <meta property="og:url" content="http://localhost:1313/HFK_website/posts/collections/">
   <meta property="og:site_name" content="HFK">
   <meta property="og:title" content="Коллекции в Python">
-  <meta property="og:description" content="Списки, кортежи, множества, словари и всё, что с ними связано.">
+  <meta property="og:description" content="Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано.">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -64,19 +64,19 @@
     <meta property="article:tag" content="Python">
     <meta property="article:tag" content="Datatypes">
     <meta property="og:image" content="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_2/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_1/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/work_with_files/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/functions/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/turtle/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
 
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg">
   <meta name="twitter:title" content="Коллекции в Python">
-  <meta name="twitter:description" content="Списки, кортежи, множества, словари и всё, что с ними связано.">
+  <meta name="twitter:description" content="Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано.">
 
   
   <script type="application/ld+json">
@@ -87,7 +87,7 @@
     "name": "Коллекции в Python",
     "headline": "Коллекции в Python",
     
-    "abstract": "Списки, кортежи, множества, словари и всё, что с ними связано.",
+    "abstract": "Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано.",
     "inLanguage": "ru",
     "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/collections\/",
     "author" : {
@@ -103,7 +103,7 @@
     "keywords": ["python","datatypes"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3367"
+    "wordCount": "3369"
   }]
   </script>
 
@@ -511,7 +511,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-05-12 00:00:00 &#43;0000 UTC">12 мая 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3367 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">16 минут</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-05-12 00:00:00 &#43;0000 UTC">12 мая 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3369 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">16 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -620,8 +620,11 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#вещи-которые-я-бы-хотел-запомнить"><strong>Вещи, которые я бы хотел запомнить</strong></a></li>
-    <li><a href="#списки"><strong>Списки</strong></a></li>
-    <li><a href="#матрицы"><strong>Матрицы</strong></a></li>
+    <li><a href="#списки"><strong>Списки</strong></a>
+      <ul>
+        <li><a href="#матрицы"><strong>Матрицы</strong></a></li>
+      </ul>
+    </li>
     <li><a href="#кортежи"><strong>Кортежи</strong></a></li>
     <li><a href="#множества"><strong>Множества</strong></a>
       <ul>
@@ -662,8 +665,11 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#вещи-которые-я-бы-хотел-запомнить"><strong>Вещи, которые я бы хотел запомнить</strong></a></li>
-    <li><a href="#списки"><strong>Списки</strong></a></li>
-    <li><a href="#матрицы"><strong>Матрицы</strong></a></li>
+    <li><a href="#списки"><strong>Списки</strong></a>
+      <ul>
+        <li><a href="#матрицы"><strong>Матрицы</strong></a></li>
+      </ul>
+    </li>
     <li><a href="#кортежи"><strong>Кортежи</strong></a></li>
     <li><a href="#множества"><strong>Множества</strong></a>
       <ul>
@@ -825,7 +831,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 6: Работа с файлами в Python
+            Part 6: Работа с txt файлами в Python
         </a>
     </div>
     
@@ -857,6 +863,15 @@
     </div>
     
     
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv и json файлами в Python
+        </a>
+    </div>
+    
+    
 
 
 </details>
@@ -865,7 +880,7 @@
 
         <div class="article-content max-w-prose mb-20">
           <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Списки, кортежи, множества, словари и всё, что с ними связано. Первая часть серии конспектов по языку Python.
+  Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано. Первая часть серии конспектов по языку Python.
 </div>
 
 
@@ -991,10 +1006,9 @@
     >Если нужно получить очищенную от знаков препинания и заглавных букв строку, можно воспользоваться следующей конструкцией: <code>text = [word.strip('.,!?:;-') for word in input().lower().split()]</code></span>
 </div>
 
-<hr>
 
 
-<h2 class="relative group"><strong>Матрицы</strong> 
+<h3 class="relative group"><strong>Матрицы</strong> 
     <div id="%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8B" class="anchor"></div>
     
     <span
@@ -1003,7 +1017,7 @@
             style="text-decoration-line: none !important;" href="#%D0%BC%D0%B0%D1%82%D1%80%D0%B8%D1%86%D1%8B" aria-label="Якорь">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>Индексы i и j элементов на главной диагонали квадратной матрицы связаны соотношением i = j. На побочной диагонали: i + j + 1 = n (или  j = n - i - 1), где n — размерность матрицы.<br>
 Заметим также, что:</p>
 <ul>
@@ -1909,7 +1923,7 @@ None
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 6: Работа с файлами в Python
+            Part 6: Работа с txt файлами в Python
         </a>
     </div>
     
@@ -1937,6 +1951,15 @@ None
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
             Part 9: Потоковый ввод и вывод
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv и json файлами в Python
         </a>
     </div>
     

@@ -67,12 +67,12 @@
     <meta property="article:tag" content="Modules">
     <meta property="article:tag" content="Datatypes">
     <meta property="og:image" content="http://localhost:1313/HFK_website/posts/date_and_time_2/featurebackground.svg">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_1/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/work_with_files/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/functions/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/turtle/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
 
   
   <meta name="twitter:card" content="summary_large_image">
@@ -105,7 +105,7 @@
     "keywords": ["python","time","calendar","modules","datatypes"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3147"
+    "wordCount": "3145"
   }]
   </script>
 
@@ -513,7 +513,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-30 00:00:00 &#43;0000 UTC">30 июня 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3147 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">15 минут</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-06-30 00:00:00 &#43;0000 UTC">30 июня 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3145 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">15 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -656,7 +656,7 @@
       <ul>
         <li><a href="#функция-monotonic">Функция <code>monotonic()</code></a></li>
         <li><a href="#функция-perf_counter">Функция <code>perf_counter()</code></a></li>
-        <li><a href="#несколько-интересных-фактов">Несколько интересных фактов</a></li>
+        <li><a href="#замечания">Замечания</a></li>
         <li><a href="#тип-данных-struct_time">Тип данных <code>struct_time</code></a>
           <ul>
             <li><a href="#функция-localtime">Функция <code>localtime()</code></a></li>
@@ -698,7 +698,7 @@
       <ul>
         <li><a href="#функция-monotonic">Функция <code>monotonic()</code></a></li>
         <li><a href="#функция-perf_counter">Функция <code>perf_counter()</code></a></li>
-        <li><a href="#несколько-интересных-фактов">Несколько интересных фактов</a></li>
+        <li><a href="#замечания">Замечания</a></li>
         <li><a href="#тип-данных-struct_time">Тип данных <code>struct_time</code></a>
           <ul>
             <li><a href="#функция-localtime">Функция <code>localtime()</code></a></li>
@@ -879,6 +879,15 @@
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
             Part 9: Потоковый ввод и вывод
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv файлами в Python
         </a>
     </div>
     
@@ -1182,17 +1191,17 @@
 </span></span></code></pre></div><hr>
 
 
-<h3 class="relative group">Несколько интересных фактов 
-    <div id="%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D1%85-%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D0%B2" class="anchor"></div>
+<h3 class="relative group">Замечания 
+    <div id="%D0%B7%D0%B0%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D1%8F" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D1%85-%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D0%B2" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D0%B7%D0%B0%D0%BC%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%D1%8F" aria-label="Якорь">#</a>
     </span>        
     
 </h3>
-<p>При сравнении разных способов выполнить одно и то же действие, было замерено время выполнения каждого. Вот некоторые интересные примечания, которые мне хотелось бы выделить:</p>
+<p>При сравнении разных способов выполнить одно и то же действие, было замерено время выполнения каждого. Вот некоторые интересные замечания, которые мне хотелось бы выделить:</p>
 <ul>
 <li>По сравнению с собственными реализациями, функция <code>factorial()</code> из модуля <code>math</code> выполняется быстрее, так как реализована на языке C.</li>
 <li>Списочные выражения (или же list comprehensions) выполняются быстрее, чем использование цикла <code>for</code> на пару с методом <code>append</code>.</li>
@@ -2154,6 +2163,15 @@ Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
             Part 9: Потоковый ввод и вывод
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv файлами в Python
         </a>
     </div>
     
