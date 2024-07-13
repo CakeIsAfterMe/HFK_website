@@ -3,7 +3,7 @@ title: "Черепашья графика"
 date: 2024-05-15
 draft: false
 description: ""
-tags: ["python", "turtle", "modules"]
+tags: ["python", "modules", "turtle"]
 series: ["Python"]
 series_order: 4
 ---

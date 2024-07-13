@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Os on HFK</title>
+    <link>http://localhost:1313/HFK_website/tags/os/</link>
+    <description>Recent content in Os on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Модуль os и shutil</title>
+      <link>http://localhost:1313/HFK_website/posts/os_shutil/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/os_shutil/</guid>
+      <description>Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/os_shutil/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

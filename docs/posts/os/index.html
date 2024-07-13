@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/HFK_website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HFK_website/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="ru" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Модуль os и shutil &middot; HFK</title>
+  <meta name="title" content="Модуль os и shutil &middot; HFK" />
+  
+  <meta name="description" content="Чудесный сайт" />
+  <meta name="keywords" content="python, modules, os, shutil, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/os/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/HFK_website/css/main.bundle.min.85f006de1806b55b2d082d1122deedd8cec6fdc1f7c8a51be975a4496165d6c798f4a3de52545a6a87cc4bc09fc2d6f5201d44ea57acc1ac2b1c42a688c62bee.css"
+    integrity="sha512-hfAG3hgGtVstCC0RIt7t2M7G/cH3yKUb6XWkSWFl1seY9KPeUlRaaofMS8Cfwtb1IB1E6leswawrHEKmiMYr7g==" />
+  
+  
+  <script type="text/javascript" src="/HFK_website/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  <script src="/HFK_website/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/HFK_website/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/HFK_website/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/HFK_website/favicon-16x16.png" />
+  <link rel="manifest" href="/HFK_website/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/os/">
+  <meta property="og:site_name" content="HFK">
+  <meta property="og:title" content="Модуль os и shutil">
+  <meta property="og:description" content="Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-12T00:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Modules">
+    <meta property="article:tag" content="Os">
+    <meta property="article:tag" content="Shutil">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/zip_pkl/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_2/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_1/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/work_with_files/">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Модуль os и shutil">
+  <meta name="twitter:description" content="Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Конспекты",
+    "name": "Модуль os и shutil",
+    "headline": "Модуль os и shutil",
+    
+    "abstract": "Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами\rМодуль os #\rДля использования: import os",
+    "inLanguage": "ru",
+    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/os\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Иван Бережной"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-07-12T00:00:00\u002b00:00",
+    "datePublished": "2024-07-12T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-07-12T00:00:00\u002b00:00",
+    
+    "keywords": ["python","modules","os","shutil"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1048"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Иван Бережной" />
+  
+  
+  
+  <link href="https://t.me/noisy_cake" rel="me" />
+  
+  
+  <link href="https://github.com/NoisyCake" rel="me" />
+  
+  
+  
+  
+
+<script src="/HFK_website/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Перейти к основному содержимому</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/HFK_website/" class="flex">
+            <span class="sr-only">HFK</span>
+
+            <img src="/HFK_website/img/first_logo_transparent.png" width="256" height="256"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="HFK" />
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/HFK_website/" class="text-base font-medium text-gray-500 hover:text-gray-900">HFK</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/HFK_website/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Конспекты
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Проекты
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/HFK_website/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        О HFK
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/HFK_website/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Конспекты
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Проекты
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/HFK_website/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            О HFK
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/HFK_website/"
+      >:tada:</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/HFK_website/posts/"
+      >Конспекты</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/HFK_website/posts/os/"
+      >Модуль os и shutil</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Модуль os и shutil
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-07-12 00:00:00 &#43;0000 UTC">12 июля 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1048 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">5 минут</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title=""
+          data-title-i18n-disable=""
+          data-title-i18n-enable="">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/python/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/modules/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Modules
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/os/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Os
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/shutil/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Shutil
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+
+      
+
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Оглавление
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#centerмодуль-oscenter"><center>Модуль os<center></a>
+      <ul>
+        <li><a href="#centerподмодуль-ospathcenter"><center>Подмодуль os.path</center></a></li>
+      </ul>
+    </li>
+    <li><a href="#centerмодуль-shutilcenter"><center>Модуль shutil</center></a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Оглавление
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#centerмодуль-oscenter"><center>Модуль os<center></a>
+      <ul>
+        <li><a href="#centerподмодуль-ospathcenter"><center>Подмодуль os.path</center></a></li>
+      </ul>
+    </li>
+    <li><a href="#centerмодуль-shutilcenter"><center>Модуль shutil</center></a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Python - This article is part of a series.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/collections/">
+            Part 1: Коллекции в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/random_string/">
+            Part 2: Модули string и random
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
+            Part 3: Decimal, Fraction и комлексные числа в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/turtle/">
+            Part 4: Черепашья графика
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/functions/">
+            Part 5: Функции в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
+            Part 6: Работа с txt файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
+            Part 7: Работа с датой и временем. Часть 1
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
+            Part 8: Работа с датой и временем. Часть 2
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
+            Part 9: Потоковый ввод и вывод
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv и json файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
+            Part 11: Работа с zip и pkl файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Part 12: This Article
+    </div>
+    
+    
+
+
+</details>
+
+
+
+        <div class="article-content max-w-prose mb-20">
+          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  Конспект посвящён модулям <code>os</code> и <code>shutil</code>, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами
+</div>
+
+
+
+<h2 class="relative group"><center>Модуль os<center> 
+    <div id="center%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-oscenter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#center%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-oscenter" aria-label="Якорь">#</a>
+    </span>        
+    
+</h2>
+<p>Для использования: <code>import os</code></p>
+<p>Модуль <code>os</code> позволяет взаимодействовать с операционной системой. Например, мы можем перемещаться по папкам, получить информацию о файле, посмотреть и изменить переменные среды (окружения), переместить файлы и так далее. Посмотрим на некоторые функции и объекты, которые мы можем использовать.</p>
+<ul>
+<li>
+<p><code>os.getcwd()</code> возвращает рабочий каталог (тот, в котором пользователь сейчас находится).</p>
+</li>
+<li>
+<p><code>os.chdir(path)</code> перемещает пользователя в директорию, которая была передана в функцию.</p>
+</li>
+<li>
+<p><code>os.listdir(path)</code> возвращает случайно упорядоченный список файлов и каталогов, которые находятся в текущем каталоге (если ничего не было передано), либо список объектов в директории по переданному пути.</p>
+</li>
+<li>
+<p><code>os.scandir(path)</code> возвращает итератор объектов <code>os.DirEntry</code>, представленные в виде записей каталога <code>path</code>.<br>
+<code>os.DirEntry</code> — класс, объекты которого являются файлами или каталогами. Рассмотрим некоторые атрибуты и методы.</p>
+<ul>
+<li><code>obj.name</code> — имя файла/каталога;</li>
+<li><code>obj.path</code> — путь к файлу/каталогу, который будет начинаться с папки, переданной в пути <code>os.scandir()</code> первой;</li>
+<li><code>obj.is_dir()</code> возвращает <code>True</code>, если <code>obj</code> является папкой, иначе — <code>False</code>;</li>
+<li><code>obj.is_file()</code> возвращает <code>True</code>, если <code>obj</code> является файлом, иначе — <code>False</code>;</li>
+<li><code>obj.stat()</code> возвращает объект <code>os.stat_result</code> (см. ниже) для <code>obj</code>, как если бы была вызвана <code>os.stat(path)</code>, где <code>obj</code> является конечным в <code>path</code>.</li>
+</ul>
+</li>
+<li>
+<p><code>os.mkdir(path)</code> создаёт одну(!) папку, путь которой был передан в функцию.</p>
+</li>
+</ul>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #e63946"
+  >
+
+  <span
+    
+      class="ltr:pr-3 rtl:pl-3 flex items-center"
+      style="color: #1d3557"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor"  d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      style="color: #f1faee"
+    >При попытке создать папку, которая уже присутствует в текущем каталоге, возвращает ошибку (исключение) <code>FileExistsError</code>, а если путь не найден, ошибку (исключение) <code>FileNotFoundError</code>. В дальнейшем упоминания об этих ошибках будут зачастую опускаться, где это совсем очевидно</span>
+</div>
+
+<ul>
+<li>
+<p><code>os.makedirs(path, exist_ok=)</code> рекурсивно создаёт папки, путь которых был передан в качестве аргумента, то есть в отличии от <code>mkdir()</code>, функция <code>makedirs()</code> создаёт все папки промежуточного уровня, которые должны содержать конечный каталог. Параметр <code>exist_ok</code> имеет значение <code>False</code> по умолчанию, при котором в случае наличия одноимённой папки в рабочей директории функция вернёт ошибку <code>FileExistsError</code>, но если задать <code>exist_ok=True</code>, функция проигнорирует создание папки и не вернёт ошибку.</p>
+</li>
+<li>
+<p><code>os.rm_dir(path)</code> удаляет папку по переданному пути, если она пуста. В ином случае вернёт ошибку, зависящую от ОС , внутри которой ведётся работа (<code>OSError</code>).</p>
+</li>
+<li>
+<p><code>os.removedirs(path)</code> рекурсивно удаляет каталоги, начиная с последнего указанного в пути. Если какая-то из папок в пути окажется непустой, вызывает ошибку <code>OSError</code>, которая <strong>игнорируется</strong>.</p>
+</li>
+<li>
+<p><code>os.remove(path)</code> удаляет файл в пути <code>path</code>. Если передана папка, или файл не существует, возвращает ошибки.</p>
+</li>
+<li>
+<p><code>os.rename(src, dst)</code> переименовывает файл или пустую папку с <code>src</code> на <code>dst</code> (могут быть представлены как пути), причём если указать файлу другой путь, он будет перемещён в него.</p>
+</li>
+<li>
+<p><code>os.replace(src, dst)</code> по функционалу аналогичен <code>os.rename()</code>, но для поддержки кросс-платформенности рекомендуется использовать именно <code>os.replace()</code>.</p>
+</li>
+<li>
+<p><code>os.stat(path)</code> возвращает объект <code>stat_result</code>, который содержит разного рода информацию о файле или папке. Рассмотрим атрибуты этого объекта:</p>
+<ul>
+<li><code>st_mode</code>: Режим файла: тип файла и биты режима файла (разрешения).</li>
+<li><code>st_ino</code>: Зависит от платформы, но если значение не равно нулю, однозначно идентифицирует файл по заданному значению <code>st_dev</code>. <code>inode</code> номер для Unix; индекс файла для Windows.</li>
+<li><code>st_dev</code>: Идентификатор устройства, в котором находится файл.</li>
+<li><code>st_nlink</code>: Количество жёстких ссылок.</li>
+<li><code>st_uid</code>: Идентификатор пользователя владельца файла.</li>
+<li><code>st_gid</code>: Идентификатор группы пользователей владельцев файла.</li>
+<li><code>st_size</code>: Размер файла в байтах, если это обычный файл или символьная ссылка. Размер символьной ссылки - это длина пути, который она содержит, без завершающего нулевого байта.</li>
+<li><code>st_atime</code>: Время последнего доступа в секундах.</li>
+<li><code>st_mtime</code>: Время последней модификации содержимого в секундах.</li>
+<li><code>st_ctime</code>: Время последнего изменения метаданных в секундах.</li>
+<li><code>st_birthtime</code>: Время создания файла. Атрибут доступен не всегда и может вызвать ошибку (исключение) <code>AttributeError</code>.</li>
+<li>и другие.</li>
+</ul>
+</li>
+<li>
+<p><code>os.walk(top, topdown=True, onerror=False)</code> генерирует дерево каталогов, начиная с <code>top</code> (либо с конца до <code>top</code>, если <code>topdown=False</code>). Для каждого каталога в дереве возвращает кортеж <code>(dirpath, dirnames, filenames)</code>, где <code>dirpath</code> — путь к каталогу, <code>dirnames</code> — список имён подкаталогов в <code>dirpath</code> и <code>filenames</code> — список имён файлов в <code>dirpath</code>.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">dirpath</span><span class="p">,</span> <span class="n">dirnames</span><span class="p">,</span> <span class="n">filenames</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="s2">&#34;Test_walk&#34;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Current path:&#34;</span><span class="p">,</span> <span class="n">dirpath</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Directories:&#34;</span><span class="p">,</span> <span class="n">dirnames</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Files:&#34;</span><span class="p">,</span> <span class="n">filenames</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">()</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
+Current path: Test_walk
+Directories: [&#39;P&#39;, &#39;R&#39;]
+Files: [&#39;Risunok.bmp&#39;]
+
+Current path: Test_walk\P
+Directories: []
+Files: [&#39;kek.txt&#39;, &#39;L.txt&#39;]
+
+Current path: Test_walk\R
+Directories: []
+Files: []
+</code></pre><ul>
+<li>
+<p><code>os.system(command)</code> выполняет переданную команду <code>command</code>, будто она написана в терминале. Таким образом можно создавать файлы папки, перемещаться по каталогам и т.д. Если команда сгенерирует какой-либо вывод, он будет перенаправлен в поток вывода интерпретатора. В Windows возвращаемое значение равно значению, возвращаемому системной оболочкой после выполнения команды (задаётся переменной среды <code>COMSPEC</code>: обычно cmd.exe)</p>
+</li>
+<li>
+<p><code>os.environ</code> — объект, подобный словарю (<a href="https://docs.python.org/3/glossary.html#term-mapping" target="_blank">mapping object</a>), содержащий переменные среды окружения системы.</p>
+</li>
+<li>
+<p><code>os.sep</code> — разделитель пути в операционной системе. <code>'/'</code> для POSIX и <code>'\\'</code> для Windows</p>
+</li>
+</ul>
+
+
+<h3 class="relative group"><center>Подмодуль os.path</center> 
+    <div id="center%D0%BF%D0%BE%D0%B4%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-ospathcenter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#center%D0%BF%D0%BE%D0%B4%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-ospathcenter" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>
+<p><code>os.path.split(path)</code> разбивает переданный путь на парный кортеж <code>(head, tail)</code>, где <code>tail</code> — последний компонент пути (всегда без косой черты), а <code>head</code> — всё остальное. При этом: если <code>path</code> завершился косой чертой, <code>tail</code> будет пуст; если в <code>path</code> нет ни одной косой черты, <code>head</code> будет пуст; если <code>path</code> пуст, оба элемента кортежа будут пустыми.</p>
+</li>
+<li>
+<p><code>os.path.splitext(path)</code> разбивает переданный путь на парный кортеж <code>(root, ext)</code>, где <code>root + ext = path</code> и <code>ext</code> — расширение файла с точкой, а <code>root</code> — всё остальное.</p>
+</li>
+<li>
+<p><code>os.path.dirname(path)</code> возвращает первый элемент кортежа от функции <code>os.path.split()</code>, то есть путь до конечного файла/каталога не включая.</p>
+</li>
+<li>
+<p><code>os.path.basename(path)</code> возвращает второй элемент кортежа от функции <code>os.path.split()</code>, то есть имя конечного файла/каталога.</p>
+</li>
+<li>
+<p><code>os.path.join(path, *paths)</code> объединяет один или несколько сегментов пути. Возвращает строку, состоящую из объединения <code>path</code> и всех элементов <code>*paths</code>, которые разделяются <code>os.sep</code>, кроме последнего (если тот не пуст).</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os.path</span>
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;home&#39;</span><span class="p">,</span> <span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="s1">&#39;Desktop&#39;</span><span class="p">,</span> <span class="s1">&#39;file.txt&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># &#39;home/User/Desktop/file.txt&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;/home&#39;</span><span class="p">,</span> <span class="s1">&#39;User/Desktop&#39;</span><span class="p">,</span> <span class="s1">&#39;file.txt&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># &#39;/home/User/Desktop/file.txt&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;/home&#39;</span><span class="p">,</span> <span class="s1">&#39;/User/Desktop&#39;</span><span class="p">,</span> <span class="s1">&#39;file.txt&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># &#39;/User/Desktop/file.txt&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;User/Desktop&#39;</span><span class="p">,</span> <span class="s1">&#39;/home&#39;</span><span class="p">,</span> <span class="s1">&#39;file.txt&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># &#39;/home/file.txt&#39;</span>
+</span></span></code></pre></div><ul>
+<li>
+<p><code>os.path.exists(path)</code> возвращает <code>True</code>, если <code>path</code> ссылается на существующий путь, иначе — <code>False</code>.</p>
+</li>
+<li>
+<p><code>os.path.isabs(path)</code> возвращает <code>True</code>, если путь является абсолютным, иначе — <code>False</code>. В случае отсутствия пути возвращает исключение <code>OSError</code>.</p>
+</li>
+<li>
+<p><code>os.path.isdir(path)</code> возвращает <code>True</code>, если путь существует и является каталогом, иначе — <code>False</code>.</p>
+</li>
+<li>
+<p><code>os.path.isfile(path)</code> возвращает <code>True</code>, если путь существует и является файлом, иначе — <code>False</code>.</p>
+</li>
+<li>
+<p><code>os.path.abspath(path)</code> возвращает абсолютный путь.</p>
+</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group"><center>Модуль shutil</center> 
+    <div id="center%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-shutilcenter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#center%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-shutilcenter" aria-label="Якорь">#</a>
+    </span>        
+    
+</h2>
+<p>Модуль <code>shutil</code> предлагает ряд высокоуровневых операций с файлами и коллекциями файлов. Например функции, которые поддерживают копирование и удаление файлов. Разберём основные возможности этого модуля.</p>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #e63946"
+  >
+
+  <span
+    
+      class="ltr:pr-3 rtl:pl-3 flex items-center"
+      style="color: #1d3557"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor"  d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      style="color: #f1faee"
+    >Даже функции копирования файлов более высокого уровня (<code>shutil.copy()</code>, <code>shutil.copy2()</code>) не могут скопировать все метаданные файла. Например в Windows, владельцы файлов, списки контроля доступа и альтернативные потоки данных не копируются.</span>
+</div>
+
+<ul>
+<li>
+<p><code>shutil.copy(src, dst)</code> копирует файла <code>src</code> в файл или директорию <code>dst</code>, при этом оба аргумента передаются как пути.</p>
+</li>
+<li>
+<p><code>shutil.copy2(src, dst)</code> идентична функции <code>copy()</code>, за исключением того, что функция <code>copy2()</code> также пытается сохранить метаданные файла.</p>
+</li>
+<li>
+<p><code>shutil.copyfileobj(fsrc, fdst)</code> копирует содержимое файла <code>src</code> — <code>fsrc</code> (получается, например, при открытии файла с помощью <code>open()</code>) в объект файла <code>fdst</code>.</p>
+</li>
+<li>
+<p><code>shutil.copytree(src, dst)</code> рекурсивно копирует дерево каталогов из папки <code>src</code> в папку <code>dst</code> и возвращает <code>dst</code>.</p>
+</li>
+</ul>
+
+        </div>
+        
+        
+
+        
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Python - This article is part of a series.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/collections/">
+            Part 1: Коллекции в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/random_string/">
+            Part 2: Модули string и random
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
+            Part 3: Decimal, Fraction и комлексные числа в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/turtle/">
+            Part 4: Черепашья графика
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/functions/">
+            Part 5: Функции в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
+            Part 6: Работа с txt файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
+            Part 7: Работа с датой и временем. Часть 1
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
+            Part 8: Работа с датой и временем. Часть 2
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
+            Part 9: Потоковый ввод и вывод
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
+            Part 10: Работа с csv и json файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
+            Part 11: Работа с zip и pkl файлами в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Part 12: This Article
+    </div>
+    
+    
+
+
+</details>
+
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:1313/HFK_website/posts/os/&amp;resubmit=true&amp;title=%d0%9c%d0%be%d0%b4%d1%83%d0%bb%d1%8c%20os%20%d0%b8%20shutil"
+      title=""
+      aria-label=""
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\\os\\index.md"
+        var oid_likes = "likes_posts\\os\\index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/HFK_website/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/HFK_website/posts/zip_pkl/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Работа с zip и pkl файлами в Python</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-07-11 00:00:00 &#43;0000 UTC">11 июля 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Пролистать наверх" title="Пролистать наверх">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/HFK_website/tags/"
+            title="">
+            
+            Теги
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/HFK_website/authors/"
+            title="">
+            
+            Авторы
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Иван Бережной
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Работает на <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/HFK_website/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+
+  </div>
+</body>
+
+</html>
