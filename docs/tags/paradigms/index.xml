@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/HFK_website/posts/programming_paradigms/</guid>
       <description>Всё о парадигмах программирования: особенности, механизмы, какие языки поддерживают и т.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/programming_paradigms/feature.png" />
     </item>
     
   </channel>

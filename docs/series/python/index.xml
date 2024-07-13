@@ -9,13 +9,13 @@
     <copyright>© 2024 Иван Бережной</copyright>
     <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/series/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Модуль os и shutil</title>
-      <link>http://localhost:1313/HFK_website/posts/os_shutil/</link>
+      <title>Модули os, shutil и shelve</title>
+      <link>http://localhost:1313/HFK_website/posts/os_shutil_shelve/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/HFK_website/posts/os_shutil/</guid>
-      <description>Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/os_shutil/feature.png" />
+      <guid>http://localhost:1313/HFK_website/posts/os_shutil_shelve/</guid>
+      <description>Конспект посвящён модулям os, shutil и shelve, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/os_shutil_shelve/feature.png" />
     </item>
     
     <item>

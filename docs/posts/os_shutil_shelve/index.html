@@ -15,7 +15,7 @@
   <meta name="keywords" content="python, modules, os, shutil, shelve, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/os_shutil/" />
+  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/os_shutil_shelve/" />
   
   
   
@@ -52,10 +52,10 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/os_shutil/">
+  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
   <meta property="og:site_name" content="HFK">
   <meta property="og:title" content="Модули os, shutil и shelve">
-  <meta property="og:description" content="Конспект посвящён модулям os, shutil и shelve, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os">
+  <meta property="og:description" content="Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами, а также модулю shelve, позволяющий сериализовывать объекты PythonМодуль os #Для использования: import os">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -66,7 +66,7 @@
     <meta property="article:tag" content="Os">
     <meta property="article:tag" content="Shutil">
     <meta property="article:tag" content="Shelve">
-    <meta property="og:image" content="http://localhost:1313/HFK_website/posts/os_shutil/feature.png">
+    <meta property="og:image" content="http://localhost:1313/HFK_website/posts/os_shutil_shelve/feature.png">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/zip_pkl/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
@@ -76,9 +76,9 @@
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/os_shutil/feature.png">
+  <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/os_shutil_shelve/feature.png">
   <meta name="twitter:title" content="Модули os, shutil и shelve">
-  <meta name="twitter:description" content="Конспект посвящён модулям os, shutil и shelve, которые могут быть полезны для работы с операционной системой, управлением каталогами и файламиМодуль os #Для использования: import os">
+  <meta name="twitter:description" content="Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами, а также модулю shelve, позволяющий сериализовывать объекты PythonМодуль os #Для использования: import os">
 
   
   <script type="application/ld+json">
@@ -89,9 +89,9 @@
     "name": "Модули os, shutil и shelve",
     "headline": "Модули os, shutil и shelve",
     
-    "abstract": "Конспект посвящён модулям os, shutil и shelve, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами\rМодуль os #\rДля использования: import os",
+    "abstract": "Конспект посвящён модулям os и shutil, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами, а также модулю shelve, позволяющий сериализовывать объекты Python\rМодуль os #\rДля использования: import os",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/os_shutil\/",
+    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/os_shutil_shelve\/",
     "author" : {
       "@type": "Person",
       "name": "Иван Бережной"
@@ -105,7 +105,7 @@
     "keywords": ["python","modules","os","shutil","shelve"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1435"
+    "wordCount": "1581"
   }]
   </script>
 
@@ -456,7 +456,7 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/HFK_website/posts/os_shutil/"
+      href="/HFK_website/posts/os_shutil_shelve/"
       >Модули os, shutil и shelve</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
@@ -513,7 +513,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-07-12 00:00:00 &#43;0000 UTC">12 июля 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1435 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">7 минут</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-07-12 00:00:00 &#43;0000 UTC">12 июля 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1581 слово</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">8 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -882,7 +882,7 @@
 
         <div class="article-content max-w-prose mb-20">
           <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Конспект посвящён модулям <code>os</code>, <code>shutil</code> и <code>shelve</code>, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами
+  Конспект посвящён модулям <code>os</code> и <code>shutil</code>, которые могут быть полезны для работы с операционной системой, управлением каталогами и файлами, а также модулю <code>shelve</code>, позволяющий сериализовывать объекты Python
 </div>
 
 
@@ -1203,7 +1203,7 @@ Files: []
     </span>        
     
 </h2>
-<p>Модуль <code>shelve</code> сохраняет произвольные объекты Python в файл с определенным ключом, т.е. такой объект, который может обработать модуль <a href="https://cakeisafterme.github.io/HFK_website/posts/zip_pkl/#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-pickle" target="_blank">pickle</a> (большинство экземпляров классов, рекурсивных типов данных и объектов, содержащих множество общих подобъектов). Затем по этому ключу может извлечь ранее сохраненный объект из файла. Процесс работы с данными через этот модуль напоминает работу со словарями, которые также используют ключи для сохранения и извлечения объектов.</p>
+<p>Модуль <code>shelve</code> сохраняет произвольные объекты Python в файл с определенным ключом (типа <code>str</code>), т.е. такие объекты, которые может обработать модуль <a href="https://cakeisafterme.github.io/HFK_website/posts/zip_pkl/#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-pickle" target="_blank">pickle</a> (большинство экземпляров классов, рекурсивных типов данных и объектов, содержащих множество общих подобъектов). Затем по этому ключу может извлечь ранее сохраненный объект из файла. В отличии от <code>pickle</code>, <code>shelve</code> более удобен, когда требуется сериализовать множество объектов.</p>
 
 
 <h3 class="relative group">Функция <code>shelve.open()</code> 
@@ -1216,7 +1216,59 @@ Files: []
     </span>        
     
 </h3>
-<p><code>shelve.open(filename, flag='c', )</code></p>
+<p><code>shelve.open(filename, flag='c')</code> возвращает объект key-value хранилища, похожий на словарь (объект называется <code>shelf</code>). В <code>filename</code> передаётся имя открываемого/создаваемого файла, <code>flag</code> принимает одно из следующих значений:</p>
+<ul>
+<li><code>'c'</code> — файл открывается для чтения и записи. Если файл отсутствует, он создаётся;</li>
+<li><code>'r'</code> — файл открывается для чтения;</li>
+<li><code>'w'</code> — файл открывается для записи;</li>
+<li><code>'n'</code> — файл открывается для для записи. Если файл отсутствует, он создаётся. Если существует, перезаписывается.</li>
+</ul>
+<p>Объекты <code>shelf</code> поддерживают большинство методов и операций, поддерживаемых словарями (за исключением копирования, конструкторов и операторов | и |=). Запись/чтение данных <code>shelf</code> также происходит подобно записи/чтению данных словаря. Посмотрим пример:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">shelve</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="n">shelve</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">db</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">db</span><span class="p">[</span><span class="s1">&#39;func&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">func</span>
+</span></span><span class="line"><span class="cl">    <span class="n">db</span><span class="p">[</span><span class="s1">&#39;not_string&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;this_is_not_string_LOL&#34;</span><span class="p">:</span> <span class="mi">80085</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">db</span><span class="p">[</span><span class="s1">&#39;not_string&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: {&#39;this_is_not_string_LOL&#39;: 80085}</span>
+</span></span></code></pre></div><p>Программа создаёт три файла разных расширений: <code>dat</code>, <code>bak</code>, <code>dir</code>, в которых содержится одна и та же сериализованная протоколом <code>pickle</code> информация.</p>
+
+  
+  
+  
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md"
+    style="background-color: #e63946"
+  >
+
+  <span
+    
+      class="ltr:pr-3 rtl:pl-3 flex items-center"
+      style="color: #1d3557"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor"  d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-2.8-5.6-5.6-11.2-9.8-16.8l-50.6 58.8s-81.4-103.6-87.1-110.6C133.1 243.8 112 273.2 112 306.8C112 375.4 162.6 416 225.7 416z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      style="color: #f1faee"
+    >Не стоит открывать незнакомые <code>pkl</code> файлы и файлы, которые создаются <code>shelve</code>, поскольку они могут содержать самовыполняющийся код</span>
+</div>
+
 
         </div>
         
@@ -1349,7 +1401,7 @@ Files: []
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/HFK_website/posts/os_shutil/&amp;resubmit=true&amp;title=%d0%9c%d0%be%d0%b4%d1%83%d0%bb%d0%b8%20os,%20shutil%20%d0%b8%20shelve"
+      href="https://t.me/share/url?url=http://localhost:1313/HFK_website/posts/os_shutil_shelve/&amp;resubmit=true&amp;title=%d0%9c%d0%be%d0%b4%d1%83%d0%bb%d0%b8%20os,%20shutil%20%d0%b8%20shelve"
       title=""
       aria-label=""
       >
@@ -1378,8 +1430,8 @@ Files: []
           
         
       <script>
-        var oid = "views_posts\\os_shutil\\index.md"
-        var oid_likes = "likes_posts\\os_shutil\\index.md"
+        var oid = "views_posts\\os_shutil_shelve\\index.md"
+        var oid_likes = "likes_posts\\os_shutil_shelve\\index.md"
       </script>
       
       
