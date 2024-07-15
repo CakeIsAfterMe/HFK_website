@@ -18,15 +18,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/big_o/feature.png" />
     </item>
     
-    <item>
-      <title>Big O</title>
-      <link>http://localhost:1313/HFK_website/posts/mark_lutz/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/HFK_website/posts/mark_lutz/</guid>
-      <description>Всё про нотацию Big O на примерах базовых колллекций в PythonBig O – нотация, использующаяся в программировании, информатике для описания сложности алгоритмов.</description>
-      
-    </item>
-    
   </channel>
 </rss>

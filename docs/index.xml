@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/HFK_website/posts/mark_lutz/</guid>
       <description>В этом конспекте в первую очередь представлены ответы на вопросы по книге, а также новые для меня вещи, которые я вынес после прочтения каждой главы.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/mark_lutz/feature.png" />
     </item>
     
     <item>
