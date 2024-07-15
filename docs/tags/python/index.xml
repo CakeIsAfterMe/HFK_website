@@ -15,7 +15,17 @@
       
       <guid>http://localhost:1313/HFK_website/posts/mark_lutz/</guid>
       <description>В этом конспекте в первую очередь представлены ответы на вопросы по книге, а также новые для меня вещи, которые я вынес после прочтения каждой главы.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/mark_lutz/features.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/mark_lutz/feature.png" />
+    </item>
+    
+    <item>
+      <title>Углубление в логические операторы в Python</title>
+      <link>http://localhost:1313/HFK_website/posts/deep_bool_oper_python/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/deep_bool_oper_python/</guid>
+      <description>Конспект посвящён скрытым особенностям и неочевидным деталям логических операторов в PythonTruthy и falsy объекты #Falsy — объекты, которые могут быть оценены как значение False.</description>
+      
     </item>
     
     <item>
