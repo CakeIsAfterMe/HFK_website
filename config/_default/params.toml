@@ -10,8 +10,8 @@ defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 favicon = "favicon.ico"
 
-enableSearch = true
-enableCodeCopy = true
+enableSearch = false
+enableCodeCopy = false
 
 # mainSections = ["notes"]
 # robots = ""
