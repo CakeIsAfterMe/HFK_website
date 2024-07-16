@@ -221,5 +221,5 @@ False
 **Основной источник:** https://habr.com/ru/articles/824170/  
 
 Доп. источники: 
-* https://docs-python.ru/tutorial/operatsii-and-or-not-python/  
-* https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-how-is-it-different-from-true-and-false
+* [Russian Python Docs](https://docs-python.ru/tutorial/operatsii-and-or-not-python/)
+* [Stackoverflow](https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-how-is-it-different-from-true-and-false)
