@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "modules", "turtle"]
 series: ["Python"]
-series_order: 4
+series_order: 5
 ---
 
 {{< lead >}}

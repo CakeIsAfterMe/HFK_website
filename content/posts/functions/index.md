@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "functions"]
 series: ["Python"]
-series_order: 5
+series_order: 6
 ---
 
 {{< lead >}}

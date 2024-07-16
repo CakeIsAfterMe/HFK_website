@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "datatypes"]
 series: ["Python"]
-series_order: 1
+series_order: 2
 ---
 
 {{< lead >}}

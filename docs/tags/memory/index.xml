@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory on HFK</title>
+    <link>http://localhost:1313/HFK_website/tags/memory/</link>
+    <description>Recent content in Memory on HFK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>© 2024 Иван Бережной</copyright>
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Устройство памяти в Python</title>
+      <link>http://localhost:1313/HFK_website/posts/memory_python/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/memory_python/</guid>
+      <description>Конспект посвящён объяснению понятия компьютерной памяти и тому, как эта память устроена в языке программирования PythonКомпьютерная память #Как можем видеть из схемы ниже, память в компьюетере разделяется на внутреннюю и внешнюю:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/memory_python/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

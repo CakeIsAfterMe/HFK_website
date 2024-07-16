@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "files"]
 series: ["Python"]
-series_order: 6
+series_order: 7
 ---
 
 {{< lead >}}

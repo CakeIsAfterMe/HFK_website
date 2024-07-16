@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Устройство памяти в Python</title>
+      <link>http://localhost:1313/HFK_website/posts/memory_python/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/memory_python/</guid>
+      <description>Конспект посвящён объяснению понятия компьютерной памяти и тому, как эта память устроена в языке программирования PythonКомпьютерная память #Как можем видеть из схемы ниже, память в компьюетере разделяется на внутреннюю и внешнюю:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/memory_python/feature.png" />
+    </item>
+    
     <item>
       <title>Марк Лутц &#34;Изучаем Python&#34;</title>
       <link>http://localhost:1313/HFK_website/posts/mark_lutz/</link>
@@ -25,7 +35,7 @@
       
       <guid>http://localhost:1313/HFK_website/posts/deep_bool_oper_python/</guid>
       <description>Конспект посвящён скрытым особенностям и неочевидным деталям логических операторов в PythonTruthy и falsy объекты #Falsy — объекты, которые могут быть оценены как значение False.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/deep_bool_oper_python/feature.png" />
     </item>
     
     <item>

@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "time", "calendar", "modules", "datatypes"]
 series: ["Python"]
-series_order: 8
+series_order: 9
 ---
 
 {{< lead >}}

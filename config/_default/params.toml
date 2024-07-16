@@ -10,8 +10,8 @@ defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 favicon = "favicon.ico"
 
-enableSearch = false
-enableCodeCopy = false
+enableSearch = true
+enableCodeCopy = true
 
 # mainSections = ["notes"]
 # robots = ""
@@ -24,7 +24,7 @@ defaultFeaturedImage = "/img/traffic.svg" # used as default for featured images 
 
 highlightCurrentMenuArea = true
 smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOCHideUnfocusedChildren = false
 
 [header]
   layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
