@@ -160,6 +160,6 @@ Python — это язык с автоматическим управление�
 **Основной источник:** https://stepik.org/lesson/624148/step/10?unit=619836
 
 Дополнительные источники: 
-* https://habr.com/ru/companies/domclick/articles/530804/  
-* https://market.marvel.ru/blog/komplektuyushchie-i-optsii/kesh-pamyat-protsessora/  
-* https://github.com/python/cpython/blob/7d6ddb96b34b94c1cbdf95baa94492c48426404e/Objects/obmalloc.c
+* [Habr](https://habr.com/ru/companies/domclick/articles/530804/)  
+* [Market.Marvel.ru](https://market.marvel.ru/blog/komplektuyushchie-i-optsii/kesh-pamyat-protsessora/)  
+* [GitHub](https://github.com/python/cpython/blob/7d6ddb96b34b94c1cbdf95baa94492c48426404e/Objects/obmalloc.c)
