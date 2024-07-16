@@ -16,7 +16,7 @@ enableCodeCopy = false
 # mainSections = ["notes"]
 # robots = ""
 
-disableImageOptimization = false
+disableImageOptimization = true
 disableTextInHeader = false
 
 # defaultBackgroundImage = "/img/background.svg" # used as default for background images 
