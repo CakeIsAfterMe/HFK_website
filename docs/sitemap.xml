@@ -4,13 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/HFK_website/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/HFK_website/posts/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/HFK_website/posts/variables_python/</loc>
+    <lastmod>2024-07-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/HFK_website/posts/collections2/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

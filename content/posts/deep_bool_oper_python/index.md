@@ -1,5 +1,5 @@
 ---
-title: "Углубление в логические операторы в Python"
+title: "Углубление в логические операторы Python"
 date: 2024-07-14
 draft: false
 description: ""

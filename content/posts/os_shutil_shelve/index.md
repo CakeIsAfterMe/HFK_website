@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "modules", "os", "shutil", "shelve"]
 series: ["Python"]
-series_order: 13
+series_order: 14
 ---
 
 {{< lead >}}

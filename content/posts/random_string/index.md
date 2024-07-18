@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "string", "random", "modules"]
 series: ["Python"]
-series_order: 3
+series_order: 4
 ---
 
 ## **Модуль random**

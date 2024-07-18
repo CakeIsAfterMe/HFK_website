@@ -5,7 +5,7 @@ draft: false
 description: ""
 tags: ["python", "datetime", "date", "modules", "datatypes"]
 series: ["Python"]
-series_order: 8
+series_order: 9
 ---
 
 {{< lead >}}
@@ -148,7 +148,7 @@ print('Микросекунды =', my_time.microsecond)
 ```
 
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-В случае использования неверного значения для атрибутов (`year`, `month`, `day` и т.д.) вознакает ошибка (исключение) `ValueError`.
+В случае использования неверного значения для атрибутов (`year`, `month`, `day` и т.д.) возникает ошибка (исключение) `ValueError`.
 {{< /alert >}}
 
 ---

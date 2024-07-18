@@ -64,12 +64,12 @@
     <meta property="article:tag" content="Python">
     <meta property="article:tag" content="Memory">
     <meta property="og:image" content="http://localhost:1313/HFK_website/posts/memory_python/feature.png">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/variables_python/">
+      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/collections2/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/zip_pkl/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
       <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_2/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/date_and_time_1/">
 
   
   <meta name="twitter:card" content="summary_large_image">
@@ -102,7 +102,7 @@
     "keywords": ["python","memory"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1719"
+    "wordCount": "2486"
   }]
   </script>
 
@@ -510,7 +510,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 июля 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1719 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">9 минут</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-07-16 00:00:00 &#43;0000 UTC">16 июля 2024</time><span class="px-2 text-primary-500">&middot;</span><span>2486 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">12 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -635,6 +635,12 @@
         </li>
       </ul>
     </li>
+    <li><a href="#centerочистка-памятиcenter"><center>Очистка памяти</center></a>
+      <ul>
+        <li><a href="#подсчёт-ссылок">Подсчёт ссылок</a></li>
+        <li><a href="#сборщик-мусора">Сборщик мусора</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -663,6 +669,12 @@
             <li><a href="#centerареныcenter"><center>Арены</center></a></li>
           </ul>
         </li>
+      </ul>
+    </li>
+    <li><a href="#centerочистка-памятиcenter"><center>Очистка памяти</center></a>
+      <ul>
+        <li><a href="#подсчёт-ссылок">Подсчёт ссылок</a></li>
+        <li><a href="#сборщик-мусора">Сборщик мусора</a></li>
       </ul>
     </li>
   </ul>
@@ -770,8 +782,17 @@
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/variables_python/">
+            Part 3: Переменные и объекты в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/random_string/">
-            Part 3: Модули string и random
+            Part 4: Модули string и random
         </a>
     </div>
     
@@ -780,7 +801,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
-            Part 4: Decimal, Fraction и комлексные числа в Python
+            Part 5: Decimal, Fraction и комплексные числа в Python
         </a>
     </div>
     
@@ -789,7 +810,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/turtle/">
-            Part 5: Черепашья графика
+            Part 6: Черепашья графика
         </a>
     </div>
     
@@ -798,7 +819,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/functions/">
-            Part 6: Функции в Python
+            Part 7: Функции в Python
         </a>
     </div>
     
@@ -807,7 +828,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 7: Работа с txt файлами в Python
+            Part 8: Работа с txt файлами в Python
         </a>
     </div>
     
@@ -816,7 +837,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
-            Part 8: Работа с датой и временем. Часть 1
+            Part 9: Работа с датой и временем. Часть 1
         </a>
     </div>
     
@@ -825,7 +846,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
-            Part 9: Работа с датой и временем. Часть 2
+            Part 10: Работа с датой и временем. Часть 2
         </a>
     </div>
     
@@ -834,7 +855,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
-            Part 10: Потоковый ввод и вывод
+            Part 11: Потоковый ввод и вывод
         </a>
     </div>
     
@@ -843,7 +864,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/csv_json/">
-            Part 11: Работа с csv и json файлами в Python
+            Part 12: Работа с csv и json файлами в Python
         </a>
     </div>
     
@@ -852,7 +873,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
-            Part 12: Работа с zip и pkl файлами в Python
+            Part 13: Работа с zip и pkl файлами в Python
         </a>
     </div>
     
@@ -861,7 +882,16 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
-            Part 13: Модули os, shutil и shelve
+            Part 14: Модули os, shutil и shelve
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/collections2/">
+            Part 15: Дополнительные типы коллекций в Python
         </a>
     </div>
     
@@ -1238,8 +1268,161 @@
 </p>
 <p>Поэтому наиболее полная арена будет выбрана для записи еще большего количества данных. Такое расположение арен позволяет снизить объем потребляемой программой памяти. Дело в том, что в некоторых случаях, когда память освобождается, она все еще остается недоступной операционной системе. Процесс Python держит ее распределенной и использует ее позже для новых данных. Полное освобождение памяти возвращает память в пользование операционной системе.</p>
 <p>Арены — единственные области, которые могут быть полностью освобождены. Таким образом мы понимаем, что те арены, которые находятся в списке ближе к пустому состоянию, должны быть освобождены. В таком случае, область памяти может быть действительно полностью освобождена, и соответственно общий объем памяти Python программы будет уменьшен.</p>
+
+
+<h2 class="relative group"><center>Очистка памяти</center> 
+    <div id="center%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8center" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#center%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8center" aria-label="Якорь">#</a>
+    </span>        
+    
+</h2>
+<p>Как мы уже знаем, язык Python является языком с автоматически управляемой памятью, то есть программисту, пишущему код на Python, не нужно беспокоиться о работе с памятью, в частности заниматься ее освобождением. Как только данные программы (объекты в Python) больше не нужны, Python автоматически освобождает память, которую они занимали. Несмотря на это, понимание того, как работает механизм очистки памяти, может помочь писать более качественный и производительный код.</p>
+<p>Стандартный интерпретатор Python использует сразу два механизма очистки памяти:</p>
+<ul>
+<li>Подсчёт ссылок;</li>
+<li>Сборщик мусора (Garbage Collector, GC).</li>
+</ul>
+
+
+<h3 class="relative group">Подсчёт ссылок 
+    <div id="%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82-%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BF%D0%BE%D0%B4%D1%81%D1%87%D1%91%D1%82-%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<p>Алгоритм подсчета ссылок — это один из самых простых механизмов очистки памяти. Объекты удаляются как только на них больше нет ссылок.</p>
+<p>Каждый объект в Python унаследован от базового класса PyObject, который содержит специальное поле <code>Reference Count (ob_refcnt)</code>, в котором хранится количество ссылок на данный объект. Как только кто-то начинает ссылаться на объект, значение этого поля увеличивается на единицу. Если по какой-то причине ссылка пропадает, то это поле уменьшается на один. При этом если счетчик ссылок для определенного объекта достигает нуля, то интерпретатор запускает процесс уничтожения объекта. Если удаленный объект содержал ссылки на другие объекты, то эти ссылки также удаляются. Таким образом, удаление одного объекта может повлечь за собой удаление других.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >Механизм подсчета ссылок работает в режиме реального времени.</span>
+</div>
+
+<p>Четыре основных сценария, увеличивающих количество ссылок на объект:</p>
+<ul>
+<li>Создание нового объекта и присвоение его переменной;</li>
+<li>Присвоение уже существующего объекта переменной;</li>
+<li>Передача объекта в функцию в качестве аргумента;</li>
+<li>Добавление объекта в список, множество, словарь и т.д.</li>
+</ul>
+<p>Четыре основных сценария, уменьшающих количество ссылок на объект:</p>
+<ul>
+<li>Удаление объекта из области видимости функции после ее завершения;</li>
+<li>Удаление переменной с помощью оператора del;</li>
+<li>Переприсваивание переменной нового значения;</li>
+<li>Удаление объекта из списка, множества, словаря и т.д.</li>
+</ul>
+<p>Для получения количества ссылок на заданный объект используется функция <code>getrefcount()</code> из модуля <code>sys</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getrefcount</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Вывод: 2</span>
+</span></span></code></pre></div><p>Когда мы вызываем функцию <code>getrefcount()</code> для получение количества ссылок на объект, мы увеличиваем количество ссылок на объект на один, так как передаем <code>nums</code> в качестве аргумента в функцию. Поэтому счетчик ссылок равен 2. Это означает, что и переменная <code>nums</code>, и функция <code>getrefcount()</code> ссылаются на один и тот же список <code>[1, 2, 3]</code>.</p>
+<p>Алгоритм подсчета ссылок очень простой и эффективный, но у него есть один большой недостаток. Он не умеет определять циклические ссылки. Приведённый ниже код создаёт циклические ссылки, так как <code>nums1</code> содержит ссылку на <code>nums2</code>, в то время как <code>nums2</code> содержит ссылку на <code>nums1</code>. Таким образом, счетчики ссылок у <code>nums1</code> и <code>nums2</code> никогда не будут равны нулю.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">nums1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">nums2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">nums1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nums2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">nums2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nums1</span><span class="p">)</span> 
+</span></span></code></pre></div><p>Именно из-за этого в Python существует дополнительный механизм очистки памяти — сборщик мусора (Garbage Collector, GC), который следит за объектами с потенциальными циклическими ссылками.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >В Python алгоритм подсчета ссылок является фундаментальным и не может быть отключен, тогда как сборщик мусора (GC) опционален и может быть отключен.</span>
+</div>
+
+<p>Количество ссылок на определенный объект иногда может оказаться заметно больше, чем кажется на первый взгляд. Дело в том, что многие неизменяемые объекты уже используются, например, в реализациях встроенных функций и типов данных. Объекты, относящиеся к изменяемым типам данных данной особенности не подвержены, так как изменение такого объекта в одной части программы привело бы к его изменению в другой части программы.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getrefcount</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>     <span class="c1"># число 0</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getrefcount</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>     <span class="c1"># число 1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getrefcount</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">))</span>    <span class="c1"># пустая строка</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getrefcount</span><span class="p">(()))</span>    <span class="c1"># пустой кортеж</span>
+</span></span></code></pre></div><pre tabindex="0"><code># Возможный вывод:
+164
+84
+58
+1257
+</code></pre><p>Счетчик ссылок подвержен проблемам в многопоточной среде, которые могут приводить к некорректности обновления этого счетчика из разных потоков и, следовательно, к удалению объектов, на которые еще существуют ссылки. Чтобы этого избежать, CPython использует GIL — Global Interpreter Lock. Каждый раз, когда происходит работа с памятью, GIL — как глобальная блокировка — препятствует выполнению этих действий одновременно из двух потоков. Он гарантирует, что сначала отработает один, потом другой.</p>
 <hr>
-<p><strong>Основной источник:</strong> <a href="https://stepik.org/lesson/624148/step/10?unit=619836" target="_blank">https://stepik.org/lesson/624148/step/10?unit=619836</a></p>
+
+
+<h3 class="relative group">Сборщик мусора 
+    <div id="%D1%81%D0%B1%D0%BE%D1%80%D1%89%D0%B8%D0%BA-%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D1%81%D0%B1%D0%BE%D1%80%D1%89%D0%B8%D0%BA-%D0%BC%D1%83%D1%81%D0%BE%D1%80%D0%B0" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<p>В отличие от алгоритма подсчета ссылок, сборщик мусора не работает в режиме реального времени и запускается периодически. Каждый запуск сборщика создаёт микропаузы в работе программы, поэтому Python использует различные эвристики для определения частоты запуска сборщика мусора.</p>
+<p>Сборщик мусора разделяет все объекты на 3 поколения (нулевое, первое и второе). Новые объекты попадают в нулевое поколение. Если новый объект выживает в процессе сборки мусора, то он перемещается в следующее поколение. Чем старше поколение, тем реже оно сканируется на сборку мусора. Так как новые объекты зачастую имеют очень маленький срок жизни (являются временными), то имеет смысл проверять их чаще, чем те, которые уже прошли через несколько этапов сборки мусора.</p>
+<p>В каждом поколении есть специальный порог срабатывания, при достижении которого срабатывает процесс сборки мусора. Если сразу несколько поколений преодолели порог, то выбирается наиболее старшее поколение, так как сборка мусора в старших поколениях включает в себя также сборку мусора и в младших поколениях.</p>
+<hr>
+<p><strong>Основной источник:</strong> <a href="https://stepik.org/course/82541/syllabus" target="_blank">https://stepik.org/course/82541/syllabus</a></p>
 <p>Дополнительные источники:</p>
 <ul>
 <li><a href="https://habr.com/ru/companies/domclick/articles/530804/" target="_blank">Habr</a></li>
@@ -1279,8 +1462,17 @@
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/variables_python/">
+            Part 3: Переменные и объекты в Python
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/random_string/">
-            Part 3: Модули string и random
+            Part 4: Модули string и random
         </a>
     </div>
     
@@ -1289,7 +1481,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
-            Part 4: Decimal, Fraction и комлексные числа в Python
+            Part 5: Decimal, Fraction и комплексные числа в Python
         </a>
     </div>
     
@@ -1298,7 +1490,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/turtle/">
-            Part 5: Черепашья графика
+            Part 6: Черепашья графика
         </a>
     </div>
     
@@ -1307,7 +1499,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/functions/">
-            Part 6: Функции в Python
+            Part 7: Функции в Python
         </a>
     </div>
     
@@ -1316,7 +1508,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 7: Работа с txt файлами в Python
+            Part 8: Работа с txt файлами в Python
         </a>
     </div>
     
@@ -1325,7 +1517,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
-            Part 8: Работа с датой и временем. Часть 1
+            Part 9: Работа с датой и временем. Часть 1
         </a>
     </div>
     
@@ -1334,7 +1526,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
-            Part 9: Работа с датой и временем. Часть 2
+            Part 10: Работа с датой и временем. Часть 2
         </a>
     </div>
     
@@ -1343,7 +1535,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
-            Part 10: Потоковый ввод и вывод
+            Part 11: Потоковый ввод и вывод
         </a>
     </div>
     
@@ -1352,7 +1544,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/csv_json/">
-            Part 11: Работа с csv и json файлами в Python
+            Part 12: Работа с csv и json файлами в Python
         </a>
     </div>
     
@@ -1361,7 +1553,7 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
-            Part 12: Работа с zip и pkl файлами в Python
+            Part 13: Работа с zip и pkl файлами в Python
         </a>
     </div>
     
@@ -1370,7 +1562,16 @@
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
         <a href="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
-            Part 13: Модули os, shutil и shelve
+            Part 14: Модули os, shutil и shelve
+        </a>
+    </div>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        <a href="http://localhost:1313/HFK_website/posts/collections2/">
+            Part 15: Дополнительные типы коллекций в Python
         </a>
     </div>
     
@@ -1461,6 +1662,28 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/HFK_website/posts/collections2/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Дополнительные типы коллекций в Python</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-07-17 00:00:00 &#43;0000 UTC">17 июля 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>
