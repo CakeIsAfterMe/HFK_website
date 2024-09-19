@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/tags/datatypes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Дополнительные типы коллекций в Python</title>
       <link>http://localhost:1313/HFK_website/posts/collections2/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/collections2/</guid>
       <description>кМодуль collections #Python содержит встроенный модуль collections, который содержит специализированные типы коллекций, альтернативных традиционным list, tuple, dict:</description>
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Decimal, Fraction и комлексные числа в Python</title>
+      <title>Decimal, Fraction и комплексные числа в Python</title>
       <link>http://localhost:1313/HFK_website/posts/frac_dec_compl/</link>
       <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
       
@@ -54,7 +54,7 @@
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/collections/</guid>
-      <description>Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано.</description>
+      <description>Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связаноJust notes #Здесь опишу не совсем очевидные для меня вещи (на момент, когда я о них узнал).</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg" />
     </item>
     

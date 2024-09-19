@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>© 2024 Иван Бережной</copyright>
-    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/HFK_website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Основы статистики</title>
+      <link>http://localhost:1313/HFK_website/posts/basic_of_statistics/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/basic_of_statistics/</guid>
+      <description>Генеральная совокупность и выборка #Генеральная совокупность — это множество всех объектов, относительно которых предполагается делать выводы в рамках конкретного исследования.</description>
+      
+    </item>
+    
+    <item>
+      <title>Дополнительные типы коллекций в Python</title>
+      <link>http://localhost:1313/HFK_website/posts/collections2/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/HFK_website/posts/collections2/</guid>
+      <description>кМодуль collections #Python содержит встроенный модуль collections, который содержит специализированные типы коллекций, альтернативных традиционным list, tuple, dict:</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections2/feature.png" />
+    </item>
+    
     <item>
       <title>Переменные и объекты в Python</title>
       <link>http://localhost:1313/HFK_website/posts/variables_python/</link>
@@ -16,16 +36,6 @@
       <guid>http://localhost:1313/HFK_website/posts/variables_python/</guid>
       <description>Конспект посвящён переменным в Python: как они устроены, чем отличаются от переменных в других ЯП и т.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/variables_python/feature.png" />
-    </item>
-    
-    <item>
-      <title>Дополнительные типы коллекций в Python</title>
-      <link>http://localhost:1313/HFK_website/posts/collections2/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/HFK_website/posts/collections2/</guid>
-      <description>кМодуль collections #Python содержит встроенный модуль collections, который содержит специализированные типы коллекций, альтернативных традиционным list, tuple, dict:</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections2/feature.png" />
     </item>
     
     <item>
@@ -194,7 +204,7 @@
       <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/HFK_website/posts/collections/</guid>
-      <description>Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связано.</description>
+      <description>Списки (кратко), кортежи (кратко), множества, словари и всё, что с ними связаноJust notes #Здесь опишу не совсем очевидные для меня вещи (на момент, когда я о них узнал).</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/HFK_website/posts/collections/featurebackground.svg" />
     </item>
     

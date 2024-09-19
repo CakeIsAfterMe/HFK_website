@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Модули string и random &middot; HFK</title>
-  <meta name="title" content="Модули string и random &middot; HFK" />
+  <title>Основы статистики &middot; HFK</title>
+  <meta name="title" content="Основы статистики &middot; HFK" />
   
   <meta name="description" content="Чудесный сайт" />
-  <meta name="keywords" content="python, string, random, modules, " />
+  <meta name="keywords" content="math, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/random_string/" />
+  <link rel="canonical" href="http://localhost:1313/HFK_website/posts/basic_of_statistics/" />
   
   
   
@@ -52,33 +52,21 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/random_string/">
+  <meta property="og:url" content="http://localhost:1313/HFK_website/posts/basic_of_statistics/">
   <meta property="og:site_name" content="HFK">
-  <meta property="og:title" content="Модули string и random">
-  <meta property="og:description" content="Модуль random #Для использования: import random">
+  <meta property="og:title" content="Основы статистики">
+  <meta property="og:description" content="Генеральная совокупность и выборка #Генеральная совокупность — это множество всех объектов, относительно которых предполагается делать выводы в рамках конкретного исследования.">
   <meta property="og:locale" content="ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-05-13T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-05-13T00:00:00+00:00">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="String">
-    <meta property="article:tag" content="Random">
-    <meta property="article:tag" content="Modules">
-    <meta property="og:image" content="http://localhost:1313/HFK_website/posts/random_string/featureripples.svg">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/collections2/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/variables_python/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/memory_python/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/zip_pkl/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/csv_json/">
-      <meta property="og:see_also" content="http://localhost:1313/HFK_website/posts/stdin_stdout/">
+    <meta property="article:published_time" content="2024-09-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-16T00:00:00+00:00">
+    <meta property="article:tag" content="Math">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/HFK_website/posts/random_string/featureripples.svg">
-  <meta name="twitter:title" content="Модули string и random">
-  <meta name="twitter:description" content="Модуль random #Для использования: import random">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Основы статистики">
+  <meta name="twitter:description" content="Генеральная совокупность и выборка #Генеральная совокупность — это множество всех объектов, относительно которых предполагается делать выводы в рамках конкретного исследования.">
 
   
   <script type="application/ld+json">
@@ -86,26 +74,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Конспекты",
-    "name": "Модули string и random",
-    "headline": "Модули string и random",
+    "name": "Основы статистики",
+    "headline": "Основы статистики",
     
-    "abstract": "Модуль random #\rДля использования: import random",
+    "abstract": "Генеральная совокупность и выборка #\rГенеральная совокупность — это множество всех объектов, относительно которых предполагается делать выводы в рамках конкретного исследования.",
     "inLanguage": "ru",
-    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/random_string\/",
+    "url" : "http:\/\/localhost:1313\/HFK_website\/posts\/basic_of_statistics\/",
     "author" : {
       "@type": "Person",
       "name": "Иван Бережной"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-05-13T00:00:00\u002b00:00",
-    "datePublished": "2024-05-13T00:00:00\u002b00:00",
+    "dateCreated": "2024-09-16T00:00:00\u002b00:00",
+    "datePublished": "2024-09-16T00:00:00\u002b00:00",
     
-    "dateModified": "2024-05-13T00:00:00\u002b00:00",
+    "dateModified": "2024-09-16T00:00:00\u002b00:00",
     
-    "keywords": ["python","string","random","modules"],
+    "keywords": ["math"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "188"
+    "wordCount": "646"
   }]
   </script>
 
@@ -126,6 +114,139 @@
   
 
 <script src="/HFK_website/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/HFK_website/lib/katex/katex.min.5cc585eee579806fa7c1ea4d3cb915eb00e206013697950334c3a13f385bc441e531ee5aed3e688179cfae581a0801b26e817b8b70037bd5b248222f95843c9b.css" integrity="sha512-XMWF7uV5gG&#43;nwepNPLkV6wDiBgE2l5UDNMOhPzhbxEHlMe5a7T5ogXnPrlgaCAGyboF7i3ADe9WySCIvlYQ8mw==" />
+
+
+<script defer src="/HFK_website/lib/katex/katex.min.20da6cf7343619410c0900fbc626506c65159ea9f312f9729d5cba7aa713707378f9a4222e8f7fb9a42a7240e9749f199b7334401b3e3e4b60e29cf490492552.js" integrity="sha512-INps9zQ2GUEMCQD7xiZQbGUVnqnzEvlynVy6eqcTcHN4&#43;aQiLo9/uaQqckDpdJ8Zm3M0QBs&#43;Pktg4pz0kEklUg=="></script>
+
+
+<script defer src="/HFK_website/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -456,8 +577,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/HFK_website/posts/random_string/"
-      >Модули string и random</a
+      href="/HFK_website/posts/basic_of_statistics/"
+      >Основы статистики</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -466,7 +587,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Модули string и random
+      Основы статистики
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -513,7 +634,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-05-13 00:00:00 &#43;0000 UTC">13 мая 2024</time><span class="px-2 text-primary-500">&middot;</span><span>188 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">1 минута</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-09-16 00:00:00 &#43;0000 UTC">16 сентября 2024</time><span class="px-2 text-primary-500">&middot;</span><span>646 слов</span><span class="px-2 text-primary-500">&middot;</span><span title="Время чтения">4 минут</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/HFK_website/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -556,34 +677,10 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/python/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/math/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Python
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/string/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    String
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/random/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Random
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/HFK_website/tags/modules/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Modules
+    Math
   </span>
 </span>
   </span>
@@ -637,8 +734,14 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#модуль-random"><strong>Модуль random</strong></a></li>
-    <li><a href="#модуль-string"><strong>Модуль string</strong></a></li>
+    <li><a href="#генеральная-совокупность-и-выборка">Генеральная совокупность и выборка</a></li>
+    <li><a href="#типы-переменных">Типы переменных</a></li>
+    <li><a href="#меры-центральной-тенденции">Меры центральной тенденции</a>
+      <ul>
+        <li><a href="#меры-центральной-тенденции-1">Меры центральной тенденции</a></li>
+      </ul>
+    </li>
+    <li><a href="#меры-изменчивости">Меры изменчивости</a></li>
   </ul>
 </nav>
   </div>
@@ -652,8 +755,14 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#модуль-random"><strong>Модуль random</strong></a></li>
-    <li><a href="#модуль-string"><strong>Модуль string</strong></a></li>
+    <li><a href="#генеральная-совокупность-и-выборка">Генеральная совокупность и выборка</a></li>
+    <li><a href="#типы-переменных">Типы переменных</a></li>
+    <li><a href="#меры-центральной-тенденции">Меры центральной тенденции</a>
+      <ul>
+        <li><a href="#меры-центральной-тенденции-1">Меры центральной тенденции</a></li>
+      </ul>
+    </li>
+    <li><a href="#меры-изменчивости">Меры изменчивости</a></li>
   </ul>
 </nav>
   </div>
@@ -732,361 +841,191 @@
       <div class="min-w-0 min-h-0 max-w-fit">
         
         
-<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5" >
-    
-    <summary
-        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Python - This article is part of a series.
-    </summary>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/memory_python/">
-            Part 1: Устройство памяти в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/collections/">
-            Part 2: Коллекции в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/variables_python/">
-            Part 3: Переменные и объекты в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 4: This Article
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
-            Part 5: Decimal, Fraction и комплексные числа в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/turtle/">
-            Part 6: Черепашья графика
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/functions/">
-            Part 7: Функции в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 8: Работа с txt файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
-            Part 9: Работа с датой и временем. Часть 1
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
-            Part 10: Работа с датой и временем. Часть 2
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
-            Part 11: Потоковый ввод и вывод
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
-            Part 12: Работа с csv и json файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
-            Part 13: Работа с zip и pkl файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
-            Part 14: Модули os, shutil и shelve
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/collections2/">
-            Part 15: Дополнительные типы коллекций в Python
-        </a>
-    </div>
-    
-    
-
-
-</details>
-
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  
+</div>
 
-<h2 class="relative group"><strong>Модуль random</strong> 
-    <div id="%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-random" class="anchor"></div>
+
+
+
+
+<h2 class="relative group">Генеральная совокупность и выборка 
+    <div id="%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%81%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%B0" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-random" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%81%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%B0" aria-label="Якорь">#</a>
     </span>        
     
 </h2>
-<p>Для использования: <code>import random</code></p>
-<p><strong>Функции и методы:</strong></p>
-<ul>
-<li><code>randint()</code> - принимает два обязательных аргумента <code>a</code> и <code>b</code> и возвращает псевдослучайное целое число из [a, b];</li>
-<li><code>randrange()</code> - может принимать те же аргументы, что и <code>range()</code>, но вместо обычной последовательности чисел возвращает псевдослучайное число из этой последовательности;</li>
-<li><code>random()</code> - не принимает аргументов и возвращает псевдослучайное число с плавающей точкой в диапазоне [0.0, 1.0);</li>
-<li><code>uniform()</code> - возвращает псевдослучайное число с плавающей точкой в указанном диапазоне [a, b];</li>
-<li><code>seed()</code> - указывает начальное для генератора псевдослучайных чисел (по умолчанию начальное значение - системное время);</li>
-<li><code>shuffle()</code> - принимает список в качестве обязательного аргумента и перемешивает его случайным образом;</li>
-<li><code>choice()</code> - принимает список (строку, кортеж) в качестве обязательного аргумента и возвращает один случайный элемент;</li>
-<li><code>sample()</code> - принимает два обязательных аргумента: первый – коллекция (последовательность), которая поддерживает индексацию (список, строка, кортеж), второй – количество случайных элементов. Возвращает список из указанного количества уникальных (имеющих разные индексы) случайных элементов.</li>
-</ul>
+<p>Генеральная совокупность — это множество всех объектов, относительно которых предполагается делать выводы в рамках конкретного исследования.</p>
+<p>Выборка — часть генеральной совокупности. Требуется, если невозможно провести исследования над целой генеральной совокупностью (всеми её объектами).</p>
+<p>Репрезентативная выборка — это такая выборка, в которой все основные признаки генеральной совокупности, из которой извлечена данная выборка, представлены приблизительно в той же пропорции или с той же частотой, что и в этой генеральной совокупности.</p>
+<p>Способы выборок:</p>
+<ol>
+<li>Простейшая случайная выборка. В ней объекты, очевидно, выбираются случайным образом.</li>
+</ol>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/HFK_website/posts/basic_of_statistics/selection1.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<ol start="2">
+<li>Стратифицированная выборка. В ней генеральная совокупность разбивается на страпы (группы) на основе определённого признака/признаков, затем из каждой группы берутся элементы с равной вероятностью.</li>
+</ol>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/HFK_website/posts/basic_of_statistics/selection2.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<ol start="3">
+<li>Групповая (кластерная) выборка. Совокупность также разделяется на группы, но в этот раз случайным образом (чтобы были похожи между собой). Следующим шагом выбираются несколько групп, из которых берутся элементы.</li>
+</ol>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/HFK_website/posts/basic_of_statistics/selection3.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
 <hr>
 
 
-<h2 class="relative group"><strong>Модуль string</strong> 
-    <div id="%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-string" class="anchor"></div>
+<h2 class="relative group">Типы переменных 
+    <div id="%D1%82%D0%B8%D0%BF%D1%8B-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-string" aria-label="Якорь">#</a>
+            style="text-decoration-line: none !important;" href="#%D1%82%D0%B8%D0%BF%D1%8B-%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85" aria-label="Якорь">#</a>
     </span>        
     
 </h2>
-<p>Для использования: <code>import string</code></p>
-<p>В модуле <code>string</code> есть удобные константные строки, которыми можно воспользоваться:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">ascii_letters</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">ascii_uppercase</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">ascii_lowercase</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">digits</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">hexdigits</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">octdigits</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">punctuation</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">string</span><span class="o">.</span><span class="n">printable</span><span class="p">)</span>
-</span></span></code></pre></div><pre tabindex="0"><code># Вывод:
-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-0123456789
-0123456789abcdefABCDEF
-01234567
-!&#34;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!&#34;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~ \t\n\r\x0b\x0c
-</code></pre>
+<p>Переменными выборки называют те или иные признаки объектов, которые собираются исследовать.</p>
+<p><strong>Количественные</strong> — переменные, которые можно измерить (к примеру, рост). Если переменная может принимать любое значение на определённом промежутке, то она называется <strong>непрерывной</strong> количественной переменной (рост в промежутке от 150 до 200). <strong>Дискретными</strong> переменными называются те, которые могут принять отдельное возможное значение с определённой вероятностью (количество детей в семье).</p>
+<p><strong>Номинативные (качественные)</strong> — также бывают двух видов. Первые — <strong>номинальные</strong> переменные, использующиеся как имена для групп. Например, можно обозначить группу мужчин за x, а группу женщин ща y. Вторые — <strong>ранговые</strong> переменные, представляющие упорядоченные категории. К примеру, степень удовлетворённости обслуживанием в кафе или порядковый номер бегуна в забеге.</p>
+<hr>
+
+
+<h2 class="relative group">Меры центральной тенденции 
+    <div id="%D0%BC%D0%B5%D1%80%D1%8B-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B8" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BC%D0%B5%D1%80%D1%8B-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B8" aria-label="Якорь">#</a>
+    </span>        
+    
+</h2>
+<p>Гистограмма частот — графическое представление распределения количественного признака.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/HFK_website/posts/basic_of_statistics/histogram.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p>Познакомимся с двумя типами описательных статистик.</p>
+
+
+<h3 class="relative group">Меры центральной тенденции 
+    <div id="%D0%BC%D0%B5%D1%80%D1%8B-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B8-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BC%D0%B5%D1%80%D1%8B-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D0%B8-1" aria-label="Якорь">#</a>
+    </span>        
+    
+</h3>
+<p>Меры центральной тенденции — значения, вычисленные тем или иным путём исходя из графика, описывающие множество значений самого графика.</p>
+<p>Допустим, имеются 1000 значений некоторой количественной переменной. Требуется описать эти данные всего одним числом, содержащим ценную информацию.</p>
+<p><strong>Мода</strong> — значение измеряемого признака, встречающееся наиболее часто.</p>
+<p>Рассмотрим следующий график. Значением, которое встречается чаще всего, является 172 — оно и будет модой распределения. Исключим одно значение, равное 172. Теперь имеем моду сразу из трёх значений: 167, 170, 172.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        src="/HFK_website/posts/basic_of_statistics/fashion.png"
+        alt=""
+      />
+      
+    </figure>
+</p>
+<p><strong>Медиана</strong> — значение признака, которое делит упорядоченное множество данных пополам.</p>
+<p>При <u>нечётном</u> количестве элементов медианой является середина множества. При <u>нечётном</u> же — среднее арифметическое двух центральных значений признака.</p>
+<p>Возьмём только первые 9 значений из предыдущего графика. Имеем след. значения: 157, 159, 161, 164, 165, 166, 167, 167, 167. В данном случае медианой является значение 165.</p>
+<p><strong>Среднее значение</strong> — среднее арифметическое всех значений признака.</p>
+<p>Данный показатель (вернее, среднее арифметическое) обладает некоторыми свойствами:</p>
+<ul>
+<li>Если каждый элемент выборки увеличить на одно и то же число, то и среднее значение увеличится на это число.</li>
+<li>Если каждый элемент выборки умножить на одно и то же число, то и среднее значение у на это число.</li>
+<li>Если для каждого значения выборки рассчитать его отклонение от среднего арифметического, то сумма этих отклонений будет равна 0.</li>
+</ul>
+<p>Обозначение: \(M\) — для ГС или \(\bar{x}\) — для выборки</p>
+<p>Представленное выше распределение симметрично, унимодально и не имеет заметных выбросов, поэтому для его описания можно использовать любую меру. В ином случае следует избежать использования среднего значения.</p>
+<hr>
+
+
+<h2 class="relative group">Меры изменчивости 
+    <div id="%D0%BC%D0%B5%D1%80%D1%8B-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D0%BC%D0%B5%D1%80%D1%8B-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%B8" aria-label="Якорь">#</a>
+    </span>        
+    
+</h2>
+<p>Чтобы рассчитать показатели, характеризующие изменчивость исследуемого признака, можно использовать следующие меры:</p>
+<p><strong>Размах</strong> (range) — разность между максимальным и минимальным значением распределения. Данная мера использует всего два значения, из-за чего не является достаточно показательной.<br>
+Обозначение: \(R\)</p>
+<p><strong>Дисперсия</strong> — средний квадрат отклонений индивидуальных значений признака от их средней величины.</p>
+<p>Она вычисляется по следующей формуле: \(D = \frac{\sum(x_i - \bar{x})^2}{n}\). Важно уточнить, что данная формула применима только к генеральной совокупности. Для расчёта дисперсии выборки из знаменателя вычитают единицу: \(D = \frac{\sum(x_i - \bar{x})^2}{n-1}\)<br>
+Обозначение: \(D\) или \(\sigma^2\)</p>
+<p><strong>Среднеквадратичное отклонение</strong> — реальное среднее значение отклонений, получаемое извлечением корня из дисперсии. Соответственно, для нахождения, пользуемся формулой:
+$$
+\sqrt{\delta = \frac{\sum(x_i - \bar{x})^2}{n-1}}
+$$
+Обозначение: \(\sigma\) — для ГС или \(sd\) — для выборки</p>
+<p>Разберём некоторые свойства дисперсии:</p>
+<ol>
+<li>\(D_{x+c} = D_x\)<br>
+\(sd_{x+c} = sd_x\)</li>
+<li>\(D_{xc} = D_x * x^2\)<br>
+\(sd_{xc} = sd_x * x\)</li>
+</ol>
+
         </div>
         
         
 
         
-<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
-    
-    <summary
-        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
-        Python - This article is part of a series.
-    </summary>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/memory_python/">
-            Part 1: Устройство памяти в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/collections/">
-            Part 2: Коллекции в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/variables_python/">
-            Part 3: Переменные и объекты в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 4: This Article
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/frac_dec_compl/">
-            Part 5: Decimal, Fraction и комплексные числа в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/turtle/">
-            Part 6: Черепашья графика
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/functions/">
-            Part 7: Функции в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/work_with_files/">
-            Part 8: Работа с txt файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/date_and_time_1/">
-            Part 9: Работа с датой и временем. Часть 1
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/date_and_time_2/">
-            Part 10: Работа с датой и временем. Часть 2
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/stdin_stdout/">
-            Part 11: Потоковый ввод и вывод
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/csv_json/">
-            Part 12: Работа с csv и json файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/zip_pkl/">
-            Part 13: Работа с zip и pkl файлами в Python
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/os_shutil_shelve/">
-            Part 14: Модули os, shutil и shelve
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/HFK_website/posts/collections2/">
-            Part 15: Дополнительные типы коллекций в Python
-        </a>
-    </div>
-    
-    
-
-
-</details>
-
         
   
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
@@ -1095,7 +1034,7 @@ abcdefghijklmnopqrstuvwxyz
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=http://localhost:1313/HFK_website/posts/random_string/&amp;resubmit=true&amp;title=%d0%9c%d0%be%d0%b4%d1%83%d0%bb%d0%b8%20string%20%d0%b8%20random"
+      href="https://t.me/share/url?url=http://localhost:1313/HFK_website/posts/basic_of_statistics/&amp;resubmit=true&amp;title=%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d1%8b%20%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b8"
       title=""
       aria-label=""
       >
@@ -1124,8 +1063,8 @@ abcdefghijklmnopqrstuvwxyz
           
         
       <script>
-        var oid = "views_posts\\random_string\\index.md"
-        var oid_likes = "likes_posts\\random_string\\index.md"
+        var oid = "views_posts\\basic_of_statistics\\index.md"
+        var oid_likes = "likes_posts\\basic_of_statistics\\index.md"
       </script>
       
       
@@ -1145,7 +1084,7 @@ abcdefghijklmnopqrstuvwxyz
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/HFK_website/posts/collections/">
+            <a class="flex group mr-3" href="/HFK_website/posts/collections2/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1157,11 +1096,11 @@ abcdefghijklmnopqrstuvwxyz
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Коллекции в Python</span
+                  >Дополнительные типы коллекций в Python</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-05-12 00:00:00 &#43;0000 UTC">12 мая 2024</time>
+                    <time datetime="2024-07-24 00:00:00 &#43;0000 UTC">24 июля 2024</time>
                   
                 </span>
               </span>
@@ -1169,28 +1108,6 @@ abcdefghijklmnopqrstuvwxyz
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/HFK_website/posts/frac_dec_compl/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Decimal, Fraction и комплексные числа в Python</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-05-14 00:00:00 &#43;0000 UTC">14 мая 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
